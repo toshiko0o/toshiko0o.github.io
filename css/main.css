@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #57c767;
+  background: #c95381;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2997,13 +2997,17 @@ span#inline-toc {
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
-.btn-bar {
-  background-color: #656765;
-  height: 1.5px;
+.site-nav-toggle .toggle .toggle-line,
+.site-nav-right .toggle .toggle-line {
+  background: #bbb;
 }
-.site-nav-toggle button {
-  margin-top: 14px;
-  margin-left: -10px;
+.toggle .toggle-line:not(:first-child) {
+  margin-top: 3.5px;
+}
+.toggle .toggle-line {
+  height: 2px;
+  left: 10px;
+  top: 7px;
 }
 hr {
   margin: 32px 0;
@@ -3041,17 +3045,4 @@ hr {
 mjx-container[jax="CHTML"][display="true"],
 .has-jax {
   min-width: 100% !important;
-}
-.gt-container .gt-btn {
-  border: 1px solid #f4a7b9;
-  background-color: #fedfe1;
-}
-.gt-container a {
-  color: #f4a7b9;
-}
-.gt-container .gt-link {
-  border-bottom: 1px dotted #f4a7b9;
-}
-.gt-container .gt-svg svg {
-  fill: #f4a7b9;
 }
