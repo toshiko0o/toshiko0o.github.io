@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff52ff;
+  background: #57c767;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3041,4 +3041,17 @@ hr {
 mjx-container[jax="CHTML"][display="true"],
 .has-jax {
   min-width: 100% !important;
+}
+.gt-container .gt-btn {
+  border: 1px solid #f4a7b9;
+  background-color: #fedfe1;
+}
+.gt-container a {
+  color: #f4a7b9;
+}
+.gt-container .gt-link {
+  border-bottom: 1px dotted #f4a7b9;
+}
+.gt-container .gt-svg svg {
+  fill: #f4a7b9;
 }
