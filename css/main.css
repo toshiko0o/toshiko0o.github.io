@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #adffff;
+  background: #124f75;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2885,6 +2885,17 @@ article:only-of-type h1 {
 @media (min-width: 1200px) {
   .post-body {
     font-size: 1.1em;
+  }
+}
+@media (max-width: 991px) {
+  .post-body {
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 992px) {
+  .post-body {
+    text-align: justify;
+    font-size: 1.2em;
   }
 }
 .post-body .image-caption,
