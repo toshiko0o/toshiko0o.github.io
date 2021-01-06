@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #124f75;
+  background: #c8c816;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2945,10 +2945,13 @@ article:only-of-type h1 {
   margin-left: -5px;
 }
 .posts-collapse .post-header:hover::before {
-  background-color: #f8c3cd;
+  background-color: #f4a7b9;
 }
 .posts-collapse .post-header::before {
   background-color: #fff;
+  margin-left: -3.9px;
+  margin-top: 10px;
+  border: 1px solid #f4a7b9;
 }
 .page-archive .posts-collapse .archive-move-on {
   top: 10px;
