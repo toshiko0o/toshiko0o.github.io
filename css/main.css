@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffe755;
+  background: #a1d90b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2584,6 +2584,12 @@ h5,
 h6 {
   color: #656765;
 }
+h2 {
+  font-size: 1.275em;
+}
+h3 {
+  font-size: 1.2em;
+}
 body {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==");
   background-repeat: repeat;
@@ -2884,18 +2890,18 @@ article:only-of-type h1 {
 */
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 1.1em;
+    font-size: 1.05em;
   }
 }
 @media (max-width: 991px) {
   .post-body {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
 @media (min-width: 992px) {
   .post-body {
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.05em;
   }
 }
 .post-body .image-caption,
