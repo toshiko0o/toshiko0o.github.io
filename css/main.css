@@ -1165,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a1d90b;
+  background: #65dfcb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3065,4 +3065,10 @@ hr {
 mjx-container[jax="CHTML"][display="true"],
 .has-jax {
   min-width: 100% !important;
+}
+mjx-container [width="full"] {
+  margin-top: 0.1em;
+}
+mjx-math {
+  line-height: 0.15em !important;
 }
