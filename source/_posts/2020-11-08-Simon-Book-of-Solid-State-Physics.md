@@ -411,7 +411,7 @@ $$
 
 
 
-# Chapter 9 - Vibrations of a 1-D Monatomic Chain
+# Chapter 9 - 1D Monatomic Chain
 
 For monatomic chain, compressibility and sound velocity will be: 
 
@@ -420,4 +420,20 @@ For monatomic chain, compressibility and sound velocity will be:
 **Sound velocity**: $$v = \sqrt{\frac{\kappa a^2}{m}}$$. 
 
 Where $$\kappa$$ is the 
+
+# Chapter 10 - 1D Diatomic Chain
+
+
+
+# Chapter 11 - Tight Binding Chain
+
+
+
+# Chapter 12 - Crystal Structure
+
+
+
+# Chapter 13 - Reciprocal Lattice, Brillouin Zone, Waves in Crystals
+
+
 
