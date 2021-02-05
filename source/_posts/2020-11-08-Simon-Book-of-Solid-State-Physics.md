@@ -101,16 +101,20 @@ $$
 C = \frac{\partial \langle E \rangle}{\partial T} = k_0(\beta \hbar \omega)^2\frac{e^{\beta \hbar \omega}}{(e^{\beta \hbar \omega}-1)^2} .
 \end{equation}
 $$
-Because $Z_\text{3-D} = [Z_\text{1-D}]^3$, the $C$ under the three-dimensional case should multiply by 3, 
+Because $Z_\text{3-D} = [Z_\text{1-D}]^3$, the $C$ under the three-dimensional case, and with $N$ atoms should multiply by $3N$, 
 $$
 \begin{equation}
-C = 3k_0(\beta \hbar \omega)^2\frac{e^{\beta \hbar \omega}}{(e^{\beta \hbar \omega}-1)^2} .
+C = 3Nk_0(\beta \hbar \omega)^2\frac{e^{\beta \hbar \omega}}{(e^{\beta \hbar \omega}-1)^2} .
 \end{equation}
 $$
 
 ## 2.2 Debye's Calculation
 
+Debye realized that oscillation of atoms is the same thing as sound, and sound is a wave, so it should be quantized the same way as Planck had quantized light waves in 1900. 
+
 ### 2.2.1 Periodic Boundary Condition
+
+The significance of introducing the periodic boundary condition is to cancel the influence of the atoms on the boundary, so that every atoms are the same, which means the crystal is an "ideal crystal". 
 
 Possible values of $k$: 
 $$
@@ -150,6 +154,8 @@ $$
 \end{aligned}
 \end{equation}
 $$
+
+> This is summed over **all possible modes**, namely, all atoms in the volume. 
 
 the 3rd line used $k = \omega/v$, and the density of states, $g(\omega)$, is given by
 $$
@@ -415,11 +421,46 @@ $$
 
 For monatomic chain, compressibility and sound velocity will be: 
 
-**Compressibility**: $$\beta = \frac{1}{\kappa a}$$, 
+**Compressibility**: $\beta = \frac{1}{\kappa a}$, 
 
-**Sound velocity**: $$v = \sqrt{\frac{\kappa a^2}{m}}$$. 
+**Sound velocity**: $v = \sqrt{\frac{\kappa a^2}{m}}$. 
 
-Where $$\kappa$$ is the 
+Where $\kappa$ is the spring constant, and $a$ is the lattice constant (the equilibrium distance between identical atoms in a system). 
+
+***
+
+Define: 
+
+- The position of the $n^{th}$ atom: $x_n$; 
+- The equilibrium position of the $n^{th}$ atom: $x^{eq}_n=na$. 
+
+Then the diviation of $x_n$, $\delta x_n$ can be defined as:
+$$
+\begin{equation}
+\delta x_n = x_n - x^{eq}_n .
+\end{equation}
+$$
+ Now we can consider the potential holding the atoms together to be quadratic, which means that this chain is a *harmonic chain*. 
+
+After summing the potentials of all atoms, we can derive the EoM: 
+$$
+\begin{equation}
+m(\ddot{\delta x_n}) = \kappa (\delta x_{n+1}+\delta x_{n-1}-2\delta x_n).
+\end{equation}
+$$
+Attempt a solution by using an ansatz: 
+$$
+\begin{equation}
+\delta x_n = Ae^{i\omega t - ikx^{eq}_n} = Ae^{i\omega t - ikna}.
+\end{equation}
+$$
+After calculation, we have the result
+$$
+\begin{equation}
+\omega = 2\sqrt{\frac \kappa m}\Biggl|\sin\biggl(\frac{ka}{2}\biggr)\Biggr|. 
+\end{equation}
+$$
+**In general, this kind of relationship between a frequency (or energy) and a wave vector (or momentum) is known as a *dispersion relation*. ** 
 
 # Chapter 10 - 1D Diatomic Chain
 
