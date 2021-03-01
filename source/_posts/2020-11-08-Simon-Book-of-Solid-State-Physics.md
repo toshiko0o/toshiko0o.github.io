@@ -6,7 +6,6 @@ categories:
 tags: 
 - Solid State Physics
 - 物理
-- ☆
 mathjax: true
 
 
