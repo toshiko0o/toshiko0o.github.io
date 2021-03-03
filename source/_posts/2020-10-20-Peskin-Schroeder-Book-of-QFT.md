@@ -60,7 +60,7 @@ U(t) &= \mathinner{\langle \mathbf{x}|}e^{-it\sqrt{\mathbf{p}^2+m^2}}\mathinner{
 \end{aligned}
 \end{equation}
 $$
-在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了坐标系$z$-axis的正方向. 
+在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了 $z$-axis 的正方向. 
 
 ### P.15 Figure 2.1
 
