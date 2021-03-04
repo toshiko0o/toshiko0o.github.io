@@ -11,7 +11,9 @@ mathjax: true
 
 ---
 
+Note for solid state physics. 
 
+<!--more-->
 
 # Chapter 2 - Specific Heat of Solids
 
@@ -19,8 +21,14 @@ mathjax: true
 
 ☆ **Comments on Heat Capacity**
 
-- Heat Capacity: $C_V = \Bigl(\frac{\partial Q}{\partial T}\Bigr)_V = \Bigl(\frac{\partial E}{\partial T}\Bigr)_V$ (For constant volume, $W = 0$). 
-- Specific heat: heat capacity *per unit mass* (molar heat capacity sometimes). 
+- Heat Capacity: 
+
+  : $C_V = \Bigl(\frac{\partial Q}{\partial T}\Bigr)_V = \Bigl(\frac{\partial E}{\partial T}\Bigr)_V$ (For constant volume, $W = 0$). 
+
+- Specific heat: 
+
+  : heat capacity *per unit mass* (molar heat capacity sometimes). 
+
 - In this book, almost always concerned with the *heat capacity per atom.*  
   e.g. $C_V$ per atom
 

@@ -118,10 +118,10 @@ darkmode: false
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
   guestbook: /guestbook/ || fa fa-comment
-  #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -469,7 +469,7 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification: 7w6TmoCUgHS3GUoaiyAjMyNy99QSywNg8j-n1vQ-q0g 
+google_site_verification: B4ZSorUrtoaVku7VccaPZaNNZj6xDjp-Z8UPqzF2VDk
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster

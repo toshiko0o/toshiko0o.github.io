@@ -95,7 +95,7 @@ hr {
     font-family: "M PLUS Rounded 1c";
     font-size: 15px;
     font-weight: 300;
-    color: #F4A7B9;
+    color: #ff6d8f;
 }
 
 /*.site-state-item-count {
@@ -133,15 +133,17 @@ hr {
 
 // 修改按键（button）样式
 .btn {
-    color: #49b1f5;
-    background: #fff;
-    border: 2px solid #49b1f5;
+    color: #656765;
+    background: #0000;
+    border: 2px solid #656765;
+    border-radius: 7px;
 }
 // 按键（button）点击时样式
 .btn:hover {
-  border-color: #49b1f5;
-  color: #fff;
-  background: #49b1f5;
+  color: #46a9fb;
+  background: #0000;
+  border: 2px solid #a1d4ff;
+  border-radius: 7px;
 }
 
 
@@ -159,9 +161,9 @@ hr {
 
 // 删除线
 del {
-  color: #F4A7B9;
-  background: #fbf7f8;
-  margin: 2px;
+  color: #5db4fd;
+  //background: #fbf7f8;
+  margin: 3px;
 }
 
 //页脚
@@ -208,7 +210,9 @@ table>tbody>tr {
 
 // 表格的单元格
 table td, table th {
-    border-right: 1px solid #F5F5DC;
+    border-right: 1.5px solid #ddd;
+    border: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
 }
 
 // 文章内链接文本样式
@@ -247,7 +251,7 @@ span.line {color: #0f4c02ad;}
 	border-radius: 5px;
 }
 .highlight, code, pre {
-    border: 1px solid #fedfe1a3;
+    //border: 1px solid #fedfe1a3;
 }
 .highlight .code pre {
     background-color: transparent;
@@ -455,21 +459,21 @@ article:only-of-type h1 {
 }
 // 时间轴左边线条圆点颜色
 .posts-collapse .collection-year::before {
-    background-color: #F8C3CD;
-	border: 1px solid #FEDFE1;
+    background-color: #a9d8ff;
+	border: 1px solid #98d0ff;
     margin-left: -5px;
 }
 
 // 时间轴文章标题左边圆点颜色
 .posts-collapse .post-header:hover::before {
-    background-color: #f4a7b9;
+    background-color: #c9e6ff;
 }
 
 .posts-collapse .post-header::before {
     background-color: #fff;
     margin-left: -3.9px
     margin-top: 10px;
-    border: 1px solid #f4a7b9;
+    border: 1px solid #a9d8ff;
 }
 
 // archives页面时间轴左边线条第一个圆点颜色
@@ -616,4 +620,24 @@ mjx-container[jax="CHTML"][display="true"], .has-jax {
 mjx-mtd:last-child {
     padding-top: 0.3em !important;
     padding-bottom: 0.3em !important;
+}
+
+// .use-motion .post-block, .use-motion .pagination, .use-motion .comments {
+//     opacity: 0;
+//     box-shadow: 0 0px 2px 0 #0000001f, 0 3px 1px -2px #0000000f, 0 1px 5px 0 #0000001f, 0 -1px 0.5px 0 #00000017;
+// }
+
+//控制评论模块边框弧度
+// .comments {
+//     border-radius: 10px !important;    
+// }
+
+//取消主页边框
+.post-block + .post-block {
+    box-shadow: 0 2px 2px 0 #00000000, 0 3px 1px -2px #00000000, 0 1px 5px 0 #00000000, 0 -1px 0.5px 0 #00000000;
+}
+
+//主页文章标题悬浮
+.posts-expand .post-title-link::before {
+    background-color: #f4a7b9;
 }
