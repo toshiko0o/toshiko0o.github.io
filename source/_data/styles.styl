@@ -623,22 +623,27 @@ mjx-mtd:last-child {
     padding-bottom: 0.3em !important;
 }
 
-// .use-motion .post-block, .use-motion .pagination, .use-motion .comments {
-//     opacity: 0;
-//     box-shadow: 0 0px 2px 0 #0000001f, 0 3px 1px -2px #0000000f, 0 1px 5px 0 #0000001f, 0 -1px 0.5px 0 #00000017;
-// }
+.use-motion .post-block, .use-motion .pagination, .use-motion .comments {
+    opacity: 0;
+    box-shadow: 0 0px 2px 0 #0000001f, 0 3px 1px -2px #0000000f, 0 1px 5px 0 #0000001f, 0 -1px 0.5px 0 #00000017;
+}
 
-//控制评论模块边框弧度
-// .comments {
-//     border-radius: 10px !important;    
-// }
+控制评论模块边框弧度
+.comments {
+    border-radius: 10px !important;    
+}
 
 //取消主页边框
 .post-block + .post-block {
-    box-shadow: 0 2px 2px 0 #00000000, 0 3px 1px -2px #00000000, 0 1px 5px 0 #00000000, 0 -1px 0.5px 0 #00000000;
+    //box-shadow: unset;
 }
+
 
 //主页文章标题悬浮
 .posts-expand .post-title-link::before {
     background-color: #f4a7b9;
+}
+
+.content {
+    padding-top: 40px;
 }

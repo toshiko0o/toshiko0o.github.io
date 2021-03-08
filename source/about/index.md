@@ -1,5 +1,5 @@
 ---
-title: 早川 季子
+title: 早川　季子
 date: 2018-07-18 17:18:50
 type: "about"
 layout: "about"
@@ -8,10 +8,33 @@ comments: false
 
 ***
 
-<img src="index/Asuka.jpg" alt="Chito" width="682">
+<img src="index/Asuka.jpg" alt="Asuka" width="682">
 
-物理系学生。
+<center><font size = 1> **头像及本页置顶图片均为p站画师@qosic作品，作品pixiv id: 80472549，色调及尺寸有改动。** </font></center>
 
+</br>
 
+<center><font size = 5> 你好。 </font></center>
 
-抄抄书，转转文章，写点随笔，记一些笔记。
+# 关于名字
+　　早川　　　　季子  
+　　はやかわ　　としこ  
+　　Hayakawa 　Toshiko
+
+　　这是一个来自于梦境的名字。
+
+# 博客内容
+
+- 书抄（小说为主）
+- 笔记（主要为物理及计算机相关）
+- 二次元（动画与OST）
+- 随笔（呓语）
+
+　　实际上总是挖坑不填，因为太懒。
+
+# 我
+
+　　一直挣扎，一直彷徨，有时前进，但决定不再逃避。
+
+　　详见：[非健全人的自我救赎](https://blog.chen-137.me/tags/非健全人的自我救赎/)
+
