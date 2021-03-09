@@ -166,7 +166,7 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/Asuka.jpg
   # If true, the avatar will be dispalyed in circle.
-  rounded: true
+  rounded: false
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -207,7 +207,7 @@ links:
   生豆: https://robinzed.wordpress.com/ 
   Yuki: https://blog.tfei.moe/
   Entropy: https://wadechiang.github.io/
-  pzsoul: https://frankensoul.github.io
+  pzsoul: https://blog.yanzpei.icu
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).

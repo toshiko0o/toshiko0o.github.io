@@ -10,7 +10,7 @@ comments: false
 
 <img src="index/Asuka.jpg" alt="Asuka" width="682">
 
-<center><font size = 1> **头像及本页置顶图片均为p站画师@qosic作品，作品pixiv id: 80472549，色调及尺寸有改动。** </font></center>
+<center><font size = 1> **本页置顶图片为p站画师@qosic作品。该作品pixiv id为80472549。色调及尺寸有改动。** </font></center>
 
 </br>
 
@@ -34,7 +34,8 @@ comments: false
 
 # 我
 
-　　一直挣扎，一直彷徨，有时前进，但决定不再逃避。
+　　一直挣扎，一直彷徨，有时前进，但绝不再逃避。
 
 　　详见：[非健全人的自我救赎](https://blog.chen-137.me/tags/非健全人的自我救赎/)
 
+　　非典型明日香爱好者，现在更喜欢兰格雷上尉。
