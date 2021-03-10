@@ -121,6 +121,7 @@ menu:
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
+  friends: /friends/ || fa fa-link
   guestbook: /guestbook/ || fa fa-comment
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -204,7 +205,7 @@ links_settings:
 
 links:
   Starlite: https://starlite.me/ 
-  生豆: https://robinzed.wordpress.com/ 
+  なままめ: https://robinzed.wordpress.com/ 
   Yuki: https://blog.tfei.moe/
   Entropy: https://wadechiang.github.io/
   pzsoul: https://blog.yanzpei.icu
@@ -588,7 +589,7 @@ comments:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: toshiko0o
   count: true
   #post_meta_order: 0
@@ -617,17 +618,17 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
-  notify: false # Mail notifier
+  enable: true
+  appid: m2keILuLofAljOnwIcfMAulk-MdYXbMMI
+  appkey: gCnBMxEO9Xi03AXQunew81pi
+  notify: true # Mail notifier
   verify: false # Verification code
-  placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
+  placeholder: Say something~ # Comment box placeholder
+  avatar: retro # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: # Language, available values: en, zh-cn
-  visitor: false # Article reading statistic
+  language: zh-ch, en # Language, available values: en, zh-cn
+  visitor: true # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
