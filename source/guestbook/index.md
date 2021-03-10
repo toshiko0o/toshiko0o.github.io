@@ -1,12 +1,9 @@
 ---
-title: Guestbook
 date: 2021-01-07 00:24:30
 type: "guestbook"
 ---
 
-</br>
-
-<center><font size = 5>Feel free to talk here~</font></center>
+<center><font size = 6>Feel free to talk here~</font></center>
 
 </br>
 

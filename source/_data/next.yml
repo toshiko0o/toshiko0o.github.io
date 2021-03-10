@@ -179,11 +179,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/toshiko0o || fab fa-github
+  #GitHub: https://github.com/toshiko0o || fab fa-github
   E-Mail: mailto:toshiko.h19@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  Twitter: https://twitter.com/Chen3390|| fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
@@ -197,18 +197,18 @@ social_icons:
   transition: false
 
 # Blog rolls
-links_settings:
-  icon: fa fa-link
-  title: 友達
-  # Available values: block | inline
-  layout: block
+# links_settings:
+#   icon: fa fa-heartbeat #fa-link
+#   title: 连结
+#   # Available values: block | inline
+#   layout: block
 
-links:
-  Starlite: https://starlite.me/ 
-  なままめ: https://robinzed.wordpress.com/ 
-  Yuki: https://blog.tfei.moe/
-  Entropy: https://wadechiang.github.io/
-  pzsoul: https://blog.yanzpei.icu
+# links:
+#   Starlite: https://starlite.me/ 
+#   なままめ: https://robinzed.wordpress.com/ 
+#   Yuki: https://blog.tfei.moe/
+#   Entropy: https://wadechiang.github.io/
+#   pzsoul: https://blog.yanzpei.icu
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
