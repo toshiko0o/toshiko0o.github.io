@@ -44,7 +44,7 @@ comments: false
 
 </br>
 
-<div class="friendsphoto"><img src="https://wadechiang.github.io/images/avatar.png" width=120px></div>
+<img src="https://wadechiang.github.io/images/avatar.png" width=120px>
 
 <center><font size = 5><a href="https://wadechiang.github.io">Entropy</a></font></center>
 
