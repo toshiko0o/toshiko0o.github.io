@@ -67,7 +67,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: false
+  powered: true
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -239,7 +239,9 @@ chat:
 # ---------------------------------------------------------------
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
+excerpt_description: false
+
+scroll_to_more: false
 
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
@@ -298,6 +300,8 @@ related_posts:
     #isDate: false
     #isImage: false
     #isExcerpt: false
+
+
 
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
