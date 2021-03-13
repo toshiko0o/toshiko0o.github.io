@@ -14,23 +14,23 @@ comments: false
 <center><font size = 5><a href="https://starlite.me/about">Starlite</a></font></center>
 <center>「後人類文明結社」发起人，电脑高手，苹果用户</center>
 
-</br>
+<center>-</center>
 
 <center>★</center>
 
-</br>
+<center>-</center>
 
 <img src="https://robinzed.files.wordpress.com/2017/10/cropped-noun_342476_cc.png?w=192" width=120px>
 
 <center><font size = 5><a href="https://robinzed.wordpress.com/2020/03/21/re-self-introduction">生豆</a></font></center>
 
-<center>精神宇治民，时常呜呜呜，兴趣是<a href="https://namamamedesign.wixsite.com/general-ja">设计</a>，結社成员</center>
+<center>精神宇治民，~~时常呜呜呜~~，兴趣是<a href="https://namamamedesign.wixsite.com/general-ja">设计</a>，結社成员</center>
 
-</br>
+<center>-</center>
 
 <center>☆</center>
 
-</br>
+<center>-</center>
 
 <img src="https://blog.tfei.moe//images/avatar.jpg" width=120px>
 
@@ -38,11 +38,11 @@ comments: false
 
 <center>读书人，Arch Linux教徒，~~ゆきちゃん~~，結社成员</center>
 
-</br>
+<center>-</center>
 
 <center>★</center>
 
-</br>
+<center>-</center>
 
 <img src="https://wadechiang.github.io/images/avatar.png" width=120px>
 
@@ -50,11 +50,11 @@ comments: false
 
 <center>冰原晚霞捕捉人，热爱喝酒，也喜欢~~兰格雷上尉~~香香</center>
 
-</br>
+<center>-</center>
 
 <center>☆</center>
 
-</br>
+<center>-</center>
 
 <img src="https://blog.yanzpei.icu/images/avatar.jpg" width=120px>
 

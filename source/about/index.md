@@ -5,10 +5,6 @@ layout: "about"
 comments: false
 ---
 
-<img src="index/Asuka.jpg" alt="Asuka" width="682">
-
-</br>
-
 <center><font size = 8> 你好，欢迎。 </font></center>
 
 # 关于名字
@@ -27,7 +23,7 @@ comments: false
 
 # 我
 
-　　非典型明日香厨，现在喜欢兰格雷上尉。
+　　明日香厨，现在更喜欢兰格雷上尉。
 
 　　一直挣扎，一直彷徨，有时前进，但绝不再逃避。
 
@@ -35,6 +31,8 @@ comments: false
 
 ***
 
-<center><font size = 1> **此置顶图片为p站画师<a href="https://www.pixiv.net/users/13447132/">@qosic</a>作品。该作品pixiv id为<a href="https://www.pixiv.net/artworks/80472549/">80472549</a>。色调及尺寸有改动。** </font></center>
+<img src="index/Asuka.jpg" alt="Asuka" width="682">
+
+<center><font size = 1> **此图片为p站画师<a href="https://www.pixiv.net/users/13447132/">@qosic</a>作品。该作品pixiv id为<a href="https://www.pixiv.net/artworks/80472549/">80472549</a>。色调及尺寸有改动。** </font></center>
 
 <center><font size = 1> **头像为<a href="https://www.utadahikaru.jp">宇多田ヒカル</a>专辑One Last Kiss的<a href="https://www.utadahikaru.jp/music/album/title_20.html">LP海外盤</a>封面。封面角色：式波・アスカ・ラングレー** </font></center>
