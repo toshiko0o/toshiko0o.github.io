@@ -140,8 +140,8 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
@@ -627,11 +627,11 @@ valine:
   appkey: gCnBMxEO9Xi03AXQunew81pi
   notify: true # Mail notifier
   verify: false # Verification code
-  placeholder: Say something~ # Comment box placeholder
+  placeholder: 如已有Gravator头像，填写邮箱后就可以显示哦～ # Comment box placeholder
   avatar: retro # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: zh-ch, en # Language, available values: en, zh-cn
+  language: zh-CN # Language, available values: en, zh-cn
   visitor: true # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP

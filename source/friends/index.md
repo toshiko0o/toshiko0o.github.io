@@ -3,11 +3,11 @@ date: 2021-03-10 10:59:34
 comments: false
 ---
 
-
-
 以下是朋友们。虽然我不赞成给任何人贴标签的行为，但是本着娱乐的精神，写了写大家给我留下的印象。**声明：这些印象*完全来自个人，相当简短粗略，且不一定准确*。**
 
-</br>
+<center>❀</center>
+
+<center>-</center>
 
 <img src="https://starlite.me/images/avatar.jpg" width=120px>
 
@@ -16,7 +16,7 @@ comments: false
 
 <center>-</center>
 
-<center>★</center>
+<center>✿</center>
 
 <center>-</center>
 
@@ -28,7 +28,7 @@ comments: false
 
 <center>-</center>
 
-<center>☆</center>
+<center>❀</center>
 
 <center>-</center>
 
@@ -40,7 +40,7 @@ comments: false
 
 <center>-</center>
 
-<center>★</center>
+<center>✿</center>
 
 <center>-</center>
 
@@ -52,7 +52,7 @@ comments: false
 
 <center>-</center>
 
-<center>☆</center>
+<center>❀</center>
 
 <center>-</center>
 
@@ -62,3 +62,6 @@ comments: false
 
 <center>医者，赛博空间虚拟游魂，~~*劳动是狗屎运动*倡导人~~</center>
 
+<center>-</center>
+
+<center>✿</center>
