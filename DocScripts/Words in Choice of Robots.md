@@ -11,3 +11,7 @@ palm            棕榈
 curb            a stone or concrete edging to a street or path; 
 				restrain or keep in check
 instill         gradually but firmly establish (an idea or attitude, especially a desirable one) in a person's mind
+
+
+
+??

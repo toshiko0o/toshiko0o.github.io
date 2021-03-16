@@ -123,6 +123,7 @@ menu:
   tags: /tags/ || fa fa-tags
   friends: /friends/ || fa fa-link
   guestbook: /guestbook/ || fa fa-comment
+  microblog: /microblog/ || fab fa-tencent-weibo
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -627,7 +628,7 @@ valine:
   appkey: gCnBMxEO9Xi03AXQunew81pi
   notify: true # Mail notifier
   verify: false # Verification code
-  placeholder: 如已有Gravator头像，填写邮箱后就可以显示哦～ # Comment box placeholder
+  placeholder: 右下角表情图标旁边是预览，可以确认MD语法是否正确；如已有Gravator头像，填写邮箱后就可以显示哦～ # Comment box placeholder
   avatar: retro # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
