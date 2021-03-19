@@ -2,7 +2,7 @@
 title: Peskin & Schroeder Book of QFT（持续更新）
 date: 2020-10-20 12:20:35
 categories: 
-- 物理笔记
+- 笔记
 tags: 
 - QFT
 - 物理
