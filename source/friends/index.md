@@ -1,6 +1,7 @@
 ---
 date: 2021-03-10 10:59:34
 comments: false
+
 ---
 
 以下是朋友们。虽然我不赞成给任何人贴标签的行为，但是本着娱乐的精神，写了写大家给我留下的印象。**声明：这些印象*完全来自个人，相当简短粗略，且不一定准确*。**
@@ -44,18 +45,6 @@ comments: false
 
 <center>-</center>
 
-<img src="https://wadechiang.github.io/images/avatar.png" width=120px>
-
-<center><font size = 5><a href="https://wadechiang.github.io">Entropy</a></font></center>
-
-<center>冰原晚霞捕捉人，热爱喝酒，也喜欢~~兰格雷上尉~~香香</center>
-
-<center>-</center>
-
-<center>❀</center>
-
-<center>-</center>
-
 <img src="https://blog.yanzpei.icu/images/avatar.jpg" width=120px>
 
 <center><font size = 5><a href="https://blog.yanzpei.icu">pzsoul</a></font></center>
@@ -64,4 +53,4 @@ comments: false
 
 <center>-</center>
 
-<center>✿</center>
+<center>❀</center>
