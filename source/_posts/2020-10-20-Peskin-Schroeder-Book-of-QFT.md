@@ -27,7 +27,7 @@ mathjax: true
 
 ### P.14 Eq-1
 
- $E = \mathbf{p}^2/2m$时，$U(t)$为：
+　　$E = \mathbf{p}^2/2m$时，$U(t)$为：
 $$
 \begin{equation}
 \begin{aligned}
@@ -41,9 +41,9 @@ U(t) &= \langle \mathbf{x}|e^{-i(\mathbf{p}^2/2m)t}|\mathbf{x}_0\rangle \\
 \end{equation}
 $$
 
-最后一步直接使用高斯积分公式即可.
+　　最后一步直接使用高斯积分公式即可.
 
-注：一维高斯积分公式
+　　注：一维高斯积分公式
 $$
 \begin{equation}
 \int_{-\infty}^{\infty}dx\ e^{-cx^2}e^{\pm ibx} = \sqrt{\frac{\pi}{c}}e^{-b^2/4c}. 
@@ -52,7 +52,7 @@ $$
 
 ### P.14​ Eq-2
 
-$E = \sqrt{\mathbf{p}^2+m^2}$ 时，$U(t)$为：
+　　$E = \sqrt{\mathbf{p}^2+m^2}$ 时，$U(t)$为：
 $$
 \begin{equation}
 \begin{aligned}
@@ -66,7 +66,7 @@ U(t) &= \mathinner{\langle \mathbf{x}|}e^{-it\sqrt{\mathbf{p}^2+m^2}}\mathinner{
 \end{aligned}
 \end{equation}
 $$
-在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了 $z$-axis 的正方向. 
+　　在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了 $z$-axis 的正方向. 
 
 ### P.15 Figure 2.1
 
