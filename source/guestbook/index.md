@@ -1,9 +1,10 @@
 ---
-title: 聊天室
+title: ✉︎
 date: 2021-01-07 00:24:30
 type: "guestbook"
 ---
 
-<img src="index/001.jpg" alt="Sakura" width="1500">
+<center><font size=2>〒</font></center>
 
-<center><font size=2>你是GG还是MM？</font></center>
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/Sakura.jpg" alt="Sakura" style="zoom:100%;" />
+

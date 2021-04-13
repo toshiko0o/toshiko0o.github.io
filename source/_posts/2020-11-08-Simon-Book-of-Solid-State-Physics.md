@@ -2,7 +2,7 @@
 title: Simon Book of Solid State Physics（持续更新）
 date: 2020-11-08 17:49:40
 categories: 
-- 笔记
+- 物理笔记
 tags: 
 - Solid State Physics
 - 物理
@@ -410,7 +410,7 @@ $$
 
 ## 5.3 Periodic Trends
 
-{% asset_image 001.png "Periodic Table"%}
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/Periodic_Table.png" alt="Periodic_Table" style="zoom:100%;" />
 
 ### 5.3.1 Effective Nuclear Charge
 

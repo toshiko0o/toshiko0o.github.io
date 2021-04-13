@@ -2,7 +2,7 @@
 title: QCD on the Lattice(PHY788)
 date: 2021-03-23 19:50:15
 categories: 
-- 笔记
+- 物理笔记
 tags: 
 - QCD
 - 物理
