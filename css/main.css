@@ -1167,7 +1167,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #18edff;
+  background: #ffff41;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3096,4 +3096,11 @@ mjx-mtd:last-child {
 }
 code {
   font-size: 1.15em;
+}
+.v[data-class=v] .status-bar,
+.v[data-class=v] .veditor,
+.v[data-class=v] .vinput,
+.v[data-class=v] p,
+.v[data-class=v] pre code {
+  color: #656765 !important;
 }
