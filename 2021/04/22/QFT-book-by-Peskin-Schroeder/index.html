@@ -23,21 +23,21 @@
     var CONFIG = {"hostname":"blog.chen-137.me","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="这是一篇Peskin book的学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。">
+  <meta name="description" content="这是一篇基于Peskin book的量子场论学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释，同时根据研究生课程内容对部分较为简略的段落添加了补充说明。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Peskin &amp; Schroeder Book of QFT（持续更新）">
-<meta property="og:url" content="https://blog.chen-137.me/2020/10/20/Peskin-Schroeder-Book-of-QFT/index.html">
+<meta property="og:title" content="QFT book by Peskin &amp; Schroeder">
+<meta property="og:url" content="https://blog.chen-137.me/2021/04/22/QFT-book-by-Peskin-Schroeder/index.html">
 <meta property="og:site_name" content="chen-137">
-<meta property="og:description" content="这是一篇Peskin book的学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。">
+<meta property="og:description" content="这是一篇基于Peskin book的量子场论学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释，同时根据研究生课程内容对部分较为简略的段落添加了补充说明。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-10-20T03:20:35.000Z">
-<meta property="article:modified_time" content="2021-04-21T08:50:04.768Z">
+<meta property="article:published_time" content="2021-04-22T09:03:40.000Z">
+<meta property="article:modified_time" content="2021-04-23T01:40:43.572Z">
 <meta property="article:author" content="toshiko">
-<meta property="article:tag" content="QFT">
 <meta property="article:tag" content="物理">
+<meta property="article:tag" content="QFT">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://blog.chen-137.me/2020/10/20/Peskin-Schroeder-Book-of-QFT/">
+<link rel="canonical" href="https://blog.chen-137.me/2021/04/22/QFT-book-by-Peskin-Schroeder/">
 
 
 <script id="page-configurations">
@@ -50,7 +50,7 @@
   };
 </script>
 
-  <title>Peskin & Schroeder Book of QFT（持续更新） | chen-137</title>
+  <title>QFT book by Peskin & Schroeder | chen-137</title>
   
 
 
@@ -128,19 +128,14 @@
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
         <li class="menu-item menu-item-categories">
 
     <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-archives">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
         <li class="menu-item menu-item-friends">
@@ -182,7 +177,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog.chen-137.me/2020/10/20/Peskin-Schroeder-Book-of-QFT/">
+    <link itemprop="mainEntityOfPage" href="https://blog.chen-137.me/2021/04/22/QFT-book-by-Peskin-Schroeder/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/Asuka.jpg">
@@ -195,7 +190,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Peskin & Schroeder Book of QFT（持续更新）
+          QFT book by Peskin & Schroeder
         </h1>
 
         <div class="post-meta">
@@ -205,7 +200,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-10-20 12:20:35" itemprop="dateCreated datePublished" datetime="2020-10-20T12:20:35+09:00">2020-10-20</time>
+              <time title="创建时间：2021-04-22 18:03:40" itemprop="dateCreated datePublished" datetime="2021-04-22T18:03:40+09:00">2021-04-22</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -218,7 +213,7 @@
             </span>
 
           
-            <span id="/2020/10/20/Peskin-Schroeder-Book-of-QFT/" class="post-meta-item leancloud_visitors" data-flag-title="Peskin & Schroeder Book of QFT（持续更新）" title="阅读次数">
+            <span id="/2021/04/22/QFT-book-by-Peskin-Schroeder/" class="post-meta-item leancloud_visitors" data-flag-title="QFT book by Peskin & Schroeder" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -233,8 +228,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/10/20/Peskin-Schroeder-Book-of-QFT/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/10/20/Peskin-Schroeder-Book-of-QFT/" itemprop="commentCount"></span>
+    <a title="valine" href="/2021/04/22/QFT-book-by-Peskin-Schroeder/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/04/22/QFT-book-by-Peskin-Schroeder/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -243,7 +238,7 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
               </span>
-              <span>2.8k</span>
+              <span>3.4k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -261,14 +256,27 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>　　这是一篇Peskin book的学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。</p>
+        <p>　　这是一篇基于Peskin book的量子场论学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释，同时根据研究生课程内容对部分较为简略的段落添加了补充说明。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。</p>
 <a id="more"></a>
 <h1 id="chapter-1---invitation">Chapter 1 - Invitation</h1>
 <p><em>Pair Production in <span class="math inline">\(e^+e^-\)</span> Annihilation</em></p>
 <h1 id="chapter-2---the-klein-gordon-field">Chapter 2 - The Klein-Gordon Field</h1>
 <h2 id="the-necessity-of-the-field-viewpoint">2.1 The Necessity of the Field Viewpoint</h2>
-<p>　　这里提到需要将场量子化的一个原因是：由于爱因斯坦关系<span class="math inline">\(E = mc^2\)</span>的存在，任何相对论性过程中都有可能出现正负粒子对，所以用只对单个粒子进行了量子化的理论去解释是不够的。而对于能量较低的情况，我们可以考虑一个存在时间极短的态，此时由于不确定性原理 <span class="math inline">\(\Delta E \cdot \Delta t = \hbar /2\)</span> 的存在，会产生很多“虚粒子”，所以场论（多粒子/可以处理不定数目自由度的理论）是必要的。</p>
-<p>　　同时还有一个原因是关于因果性的。下面的计算就是关于传播振幅<span class="math inline">\(U(t)\)</span>的计算，他们全都违背了因果性。</p>
+<p>　　这里提到需要将场量子化的一个原因是：由于爱因斯坦关系<span class="math inline">\(E = mc^2\)</span>的存在，任何相对论性过程中都有可能出现正负粒子对，所以用只对单个粒子进行了量子化的理论去解释是不够的。而对于能量较低的情况，我们可以考虑一个存在时间极短的态，此时由于不确定性原理 <span class="math inline">\(\Delta E \cdot \Delta t = \hbar /2\)</span> 的存在，会产生很多“虚粒子”，所以场论（多粒子理论，可以处理不定数目自由度）是必要的。</p>
+<p>　　同时还有一个原因是关于因果性的。下面的计算就是关于传播振幅<span class="math inline">\(U(t)\)</span>的计算，结果表明它们违背了因果律。</p>
+<blockquote>
+<p>补充 1：关于场的简单理解</p>
+<p>在三维空间中，有<span class="math inline">\(n\)</span>个自由度的系统共有<span class="math inline">\(a=3n\)</span>个广义坐标，每个广义坐标可以写为<span class="math inline">\(q_a\)</span>。而当我们考虑无限自由度时，<span class="math inline">\(a\)</span>变为连续参数，<span class="math inline">\(q_a\)</span>变为函数<span class="math inline">\(q(a)\)</span>，于是我们便得到了“场”。（这只是大概的描述，具体如何从离散变量过渡到场可以参考<em>Goldstein</em>的第13章）</p>
+<p>实际的场是时空坐标<span class="math inline">\(x^\mu\)</span>的函数，可以看做某种实体在时空中的<strong>分布</strong>，是一个基础的力学量。</p>
+</blockquote>
+<blockquote>
+<p>补充 2：将要用到的场</p>
+<ul>
+<li><span class="math inline">\(\phi(x)\)</span>：标量场（比如希格斯场）</li>
+<li><span class="math inline">\(A_\mu(x)\)</span>：矢量场（电磁场）</li>
+<li><span class="math inline">\(\psi(x)\)</span>：旋量场</li>
+</ul>
+</blockquote>
 <h3 id="p.14-eq-1">P.14 Eq-1</h3>
 <p>　　<span class="math inline">\(E = \mathbf{p}^2/2m\)</span>时，<span class="math inline">\(U(t)\)</span>为： <span class="math display">\[
 \begin{equation}
@@ -304,13 +312,26 @@ U(t) &amp;= \mathinner{\langle \mathbf{x}|}e^{-it\sqrt{\mathbf{p}^2+m^2}}\mathin
 \]</span> 　　在第三行，我们把向量<span class="math inline">\((\mathbf{x}-\mathbf{x}_0)\)</span>的方向设为了 <span class="math inline">\(z\)</span>-axis 的正方向.</p>
 <h3 id="p.15-figure-2.1">P.15 Figure 2.1</h3>
 <p>　　两个事件之间的间隔是洛伦兹标量，即 <span class="math display">\[
-(x-x_0)^2 = -s^2, 
+\begin{equation}
+(x-x_0)^2 = -s^2,
+\end{equation}
 \]</span> 因为是类空间隔，所以有个负号。</p>
 <p>　　我们把<span class="math inline">\(x_0\)</span>作为原点，令<span class="math inline">\(x&#39;=x-x_0\)</span>，空间分量只考虑一维(<span class="math inline">\(x&#39;=(t&#39;,x&#39;)\)</span>)，则有 <span class="math display">\[
-x&#39;^2-t&#39;^2=s^2, 
+\begin{equation}
+x&#39;^2-t&#39;^2=s^2,
+\end{equation}
 \]</span> 这就是洛伦兹变换下<span class="math inline">\(x&#39;\)</span>满足的关系，即为图中所画的双曲线。</p>
 <h2 id="elements-of-classical-field-theory">2.2 Elements of Classical Field Theory</h2>
-<p>　　</p>
+<h3 id="p15-2.2">P15 (2.2)</h3>
+<p>　　这里的 <span class="math display">\[
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial(\partial_\mu \phi)}\delta(\partial_\mu \phi),
+\end{equation}
+\]</span> 具体可以写成： <span class="math display">\[
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial(\partial_t \phi)}\delta(\partial_t \phi)+\frac{\partial \mathcal{L}}{\partial(\nabla \phi)}\delta(\nabla \phi).
+\end{equation}
+\]</span> 　　而关于这里的</p>
 <h1 id="chapter-3---the-dirac-field">Chapter 3 - The Dirac Field</h1>
 
     </div>
@@ -321,8 +342,8 @@ x&#39;^2-t&#39;^2=s^2,
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/QFT/" rel="tag"># QFT</a>
               <a href="/tags/%E7%89%A9%E7%90%86/" rel="tag"># 物理</a>
+              <a href="/tags/QFT/" rel="tag"># QFT</a>
           </div>
 
         
@@ -331,12 +352,12 @@ x&#39;^2-t&#39;^2=s^2,
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/10/18/%E9%9D%9E%E5%81%A5%E5%85%A8%E4%BA%BA%E7%9A%84%E8%87%AA%E6%88%91%E6%95%91%E8%B5%8E%E3%83%BB%E5%A3%B9/" rel="prev" title="非健全人的自我救赎・壹">
-      <i class="fa fa-chevron-left"></i> 非健全人的自我救赎・壹
+    <a href="/2021/04/13/%E6%A2%A6%E8%AE%B0%E3%83%BB%E8%9B%87/" rel="prev" title="梦记・蛇">
+      <i class="fa fa-chevron-left"></i> 梦记・蛇
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/11/08/Simon-Book-of-Solid-State-Physics/" rel="next" title="Simon Book of Solid State Physics（持续更新）">
-      Simon Book of Solid State Physics（持续更新） <i class="fa fa-chevron-right"></i>
+    <a href="/2021/04/23/SSSS-GRIDMAN-Shots-Collections-%E5%AE%9D%E5%A4%9A%E5%85%AD%E8%8A%B1/" rel="next" title="SSSS.GRIDMAN Shots Collections - 宝多六花（更新中）">
+      SSSS.GRIDMAN Shots Collections - 宝多六花（更新中） <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -397,7 +418,7 @@ x&#39;^2-t&#39;^2=s^2,
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-1---invitation"><span class="nav-text">Chapter 1 - Invitation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-2---the-klein-gordon-field"><span class="nav-text">Chapter 2 - The Klein-Gordon Field</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#the-necessity-of-the-field-viewpoint"><span class="nav-text">2.1 The Necessity of the Field Viewpoint</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#p.14-eq-1"><span class="nav-text">P.14 Eq-1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#p.14-eq-2"><span class="nav-text">P.14​ Eq-2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#p.15-figure-2.1"><span class="nav-text">P.15 Figure 2.1</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#elements-of-classical-field-theory"><span class="nav-text">2.2 Elements of Classical Field Theory</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-3---the-dirac-field"><span class="nav-text">Chapter 3 - The Dirac Field</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-1---invitation"><span class="nav-text">Chapter 1 - Invitation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-2---the-klein-gordon-field"><span class="nav-text">Chapter 2 - The Klein-Gordon Field</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#the-necessity-of-the-field-viewpoint"><span class="nav-text">2.1 The Necessity of the Field Viewpoint</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#p.14-eq-1"><span class="nav-text">P.14 Eq-1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#p.14-eq-2"><span class="nav-text">P.14​ Eq-2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#p.15-figure-2.1"><span class="nav-text">P.15 Figure 2.1</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#elements-of-classical-field-theory"><span class="nav-text">2.2 Elements of Classical Field Theory</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#p15-2.2"><span class="nav-text">P15 (2.2)</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-3---the-dirac-field"><span class="nav-text">Chapter 3 - The Dirac Field</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -413,21 +434,19 @@ x&#39;^2-t&#39;^2=s^2,
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">22</span>
-        <span class="site-state-item-name">标签</span></a>
+        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-name">标签</span>
       </div>
   </nav>
 </div>
@@ -482,7 +501,7 @@ x&#39;^2-t&#39;^2=s^2,
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">53 分钟</span>
+    <span title="站点阅读时长">54 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 驱动
   </div>
