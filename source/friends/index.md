@@ -10,17 +10,6 @@ comments: false
 
 <center>-</center>
 
-<img src="https://starlite.me/images/avatar.jpg" width=120px>
-
-<center><font size = 5><a href="https://starlite.me/about">Starlite</a></font></center>
-<center>「後人類文明結社」发起人，电脑高手，苹果用户</center>
-
-<center>-</center>
-
-<center>✿</center>
-
-<center>-</center>
-
 <img src="https://robinzed.files.wordpress.com/2017/10/cropped-noun_342476_cc.png?w=192" width=120px>
 
 <center><font size = 5><a href="https://robinzed.wordpress.com/2020/03/21/re-self-introduction">生豆</a></font></center>
@@ -29,7 +18,7 @@ comments: false
 
 <center>-</center>
 
-<center>❀</center>
+<center>✿</center>
 
 <center>-</center>
 
@@ -38,6 +27,18 @@ comments: false
 <center><font size = 5><a href="https://blog.tfei.moe/about.html">Yuki</a></font></center>
 
 <center>读书人，Arch Linux教徒，~~ゆきちゃん~~，結社成员</center>
+
+<center>-</center>
+
+<center>❀</center>
+
+<center>-</center>
+
+<img src="https://blog.yanzpei.icu/images/avatar.jpg" width=120px>
+
+<center><font size = 5><a href="https://blog.yanzpei.icu">pzsoul</a></font></center>
+
+<center>医者，赛博空间虚拟游魂，~~*劳动是狗屎运动*倡导人~~</center>
 
 <center>-</center>
 
@@ -57,11 +58,10 @@ comments: false
 
 <center>-</center>
 
-<img src="https://blog.yanzpei.icu/images/avatar.jpg" width=120px>
+<img src="https://starlite.me/images/avatar.jpg" width=120px>
 
-<center><font size = 5><a href="https://blog.yanzpei.icu">pzsoul</a></font></center>
-
-<center>医者，赛博空间虚拟游魂，~~*劳动是狗屎运动*倡导人~~</center>
+<center><font size = 5><a href="https://starlite.me/about">Starlite</a></font></center>
+<center>「後人類文明結社」发起人，电脑高手，苹果用户</center>
 
 <center>-</center>
 

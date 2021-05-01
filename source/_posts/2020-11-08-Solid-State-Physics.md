@@ -1,5 +1,5 @@
 ---
-title: Simon Book of Solid State Physics（持续更新）
+title: Solid State Physics
 date: 2020-11-08 17:49:40
 categories: 
 - 物理笔记
@@ -11,9 +11,13 @@ mathjax: true
 
 ---
 
-Note for solid state physics. 
+Notes for solid state physics. 
+
+Textbook: *The Oxford Solid State Basics* by Steven H. Simon
 
 <!--more-->
+
+Solid State Physics
 
 # Chapter 2 - Specific Heat of Solids
 
