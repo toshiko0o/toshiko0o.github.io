@@ -632,7 +632,7 @@ valine:
   placeholder: 右下角表情图标旁边是预览，可以确认MD语法是否正确；如已有Gravator头像，填写邮箱后就可以显示哦～ # Comment box placeholder
   avatar: retro # Gravatar style
   guest_info: nick,mail,link # Custom comment header
-  pageSize: 10 # Pagination size
+  pageSize: 1000 # Pagination size
   language: zh-CN # Language, available values: en, zh-cn
   visitor: true # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
