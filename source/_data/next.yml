@@ -67,7 +67,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -167,7 +167,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/Asuka.jpg
+  url: /images/hedgehog.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -189,6 +189,7 @@ social:
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
+  Telegram: https://t.me/joinchat/VXJ9_HHVOwf24Vgg || fab fa-telegram
   Instagram: https://instagram.com/hayakawa_137 || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
   RSS: /rss.xml || fa fa-rss
