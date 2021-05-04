@@ -9,9 +9,11 @@ tags:
 - 特撮
 ---
 
+　　本想着只在这个合集里放六花相关的镜头的，结果发现有些镜头不放进来有点可惜……不过合集的主角还是六花！
+
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_op_00.jpeg" alt="rikka_op_00" style="zoom:50%;" />
 
-
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_op_00_w.jpeg" alt="rikka_op_00_w" style="zoom:50%;" />
 
 <!--more-->
 
@@ -21,7 +23,7 @@ tags:
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_op_02.jpeg" alt="rikka_op_02" style="zoom:50%;" />
 
-# 第一回
+# 第１回
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep1_00.jpeg" alt="rikka_ep1_00" style="zoom:50%;" />
 
@@ -51,7 +53,7 @@ tags:
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep1_14.jpeg" alt="rikka_ep1_14" style="zoom:50%;" />
 
-# 第二回
+# 第２回
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep2_00.jpeg" alt="rikka_ep2_00" style="zoom:50%;" />
 
@@ -109,5 +111,72 @@ tags:
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep2_27.jpeg" alt="rikka_ep2_27" style="zoom:50%;" />
 
-# 第三回
+# 第３回
 
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_00.jpeg" alt="rikka_ep3_00" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_01.jpeg" alt="rikka_ep3_01" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_02.jpeg" alt="rikka_ep3_02" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_03.jpeg" alt="rikka_ep3_03" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_04.jpeg" alt="rikka_ep3_04" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_05.jpeg" alt="rikka_ep3_05" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_06.jpeg" alt="rikka_ep3_06" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_07.jpeg" alt="rikka_ep3_07" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_08.jpeg" alt="rikka_ep3_08" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_09.jpeg" alt="rikka_ep3_09" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_10.jpeg" alt="rikka_ep3_10" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_11.jpeg" alt="rikka_ep3_11" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_12.jpeg" alt="rikka_ep3_12" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_13.jpeg" alt="rikka_ep3_13" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_14.jpeg" alt="rikka_ep3_14" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_15.jpeg" alt="rikka_ep3_15" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_16.jpeg" alt="rikka_ep3_16" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_17.jpeg" alt="rikka_ep3_17" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_18.jpeg" alt="rikka_ep3_18" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_19.jpeg" alt="rikka_ep3_19" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_20.jpeg" alt="rikka_ep3_20" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_21.jpeg" alt="rikka_ep3_21" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_22.jpeg" alt="rikka_ep3_22" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_23.jpeg" alt="rikka_ep3_23" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_24.jpeg" alt="rikka_ep3_24" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_25.jpeg" alt="rikka_ep3_25" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_26.jpeg" alt="rikka_ep3_26" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_27.jpeg" alt="rikka_ep3_27" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_28.jpeg" alt="rikka_ep3_28" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_29.jpeg" alt="rikka_ep3_29" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_30.jpeg" alt="rikka_ep3_30" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_31.jpeg" alt="rikka_ep3_31" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_32.jpeg" alt="rikka_ep3_32" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_ep3_33.jpeg" alt="rikka_ep3_33" style="zoom:50%;" />
