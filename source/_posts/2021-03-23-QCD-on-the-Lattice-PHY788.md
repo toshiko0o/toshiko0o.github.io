@@ -9,7 +9,7 @@ tags:
 mathjax: true
 ---
 
-　　格点QCD学习笔记。
+　　格点 QCD 学习笔记。
 
 　　主要整理了一些应该注意的地方，并对一些理解难点作了注解，补全了有困难的计算。
 
@@ -27,17 +27,17 @@ mathjax: true
 
 *QCD on the lattice - a first look*
 
-　　这一章首先介绍了QCD的作用量以及规范对称，随后对它们进行了离散化。
+　　这一章首先介绍了 QCD 的作用量以及规范对称，随后对它们进行了离散化。
 
 ## 2.1 The QCD action in the continuum
 
 ### P26 (2.1)
 
-　　在Euclidean path integral中，$\psi$和$\bar\psi$是相互独立的积分变量。
+　　在 Euclidean path integral 中，$\psi$ 和 $\bar\psi$ 是相互独立的积分变量。
 
 ### P26 (2.2)
 
-　　这里的$\mu$是洛伦兹指标，表示$A$不同的空间分量；$c$、$d$是颜色指标，由此$A$可以传递色相互作用。
+　　这里的 $\mu$ 是洛伦兹指标，表示 $A$ 不同的空间分量；$c$、$d$ 是颜色指标，由此 $A$ 可以传递色相互作用。
 
 　　$A_\mu(x)$: traceless, hermitian $3 \times 3$ matrix
 

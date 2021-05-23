@@ -9,7 +9,7 @@ tags:
 - 特撮
 ---
 
-　　本想着只在这个合集里放六花相关的镜头的，结果发现有些镜头不放进来有点可惜……不过合集的主角还是六花！
+　　本想着只在这个合集里放六花相关的镜头的，结果发现其他镜头里也有很不错的，不放进来有点可惜……不过合集的主角还是六花！
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/rikka_op_00.jpeg" alt="rikka_op_00" style="zoom:50%;" />
 
