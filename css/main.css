@@ -1167,7 +1167,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff71ff;
+  background: #ff26ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2580,7 +2580,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #656765;
+  color: #000;
 }
 h2 {
   font-size: 1.275em;
@@ -2714,7 +2714,7 @@ hr {
   color: #f7f7f7;
 }
 del {
-  color: #656765;
+  color: #000;
   margin: 3px;
 }
 .footer-inner {
@@ -3102,5 +3102,5 @@ code {
 .v[data-class=v] .vinput,
 .v[data-class=v] p,
 .v[data-class=v] pre code {
-  color: #656765 !important;
+  color: #000 !important;
 }
