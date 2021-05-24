@@ -1167,7 +1167,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffe20d;
+  background: #5d6f12;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2899,7 +2899,7 @@ article:only-of-type h1 {
 }
 @media (max-width: 991px) {
   .post-body {
-    font-size: 1.05em;
+    font-size: 1.1em;
   }
 }
 @media (min-width: 992px) {
