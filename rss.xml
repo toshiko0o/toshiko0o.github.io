@@ -8,8 +8,8 @@
     
     <atom:link href="https://blog.chen-137.me/rss.xml" rel="self" type="application/rss+xml"/>
     
-    <description>浮生若梦，为欢几何？</description>
-    <pubDate>Sun, 23 May 2021 14:45:10 GMT</pubDate>
+    <description>认识你自己</description>
+    <pubDate>Fri, 28 May 2021 07:36:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -23,7 +23,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>　　课程教材：<a href="http://libgen.rs/book/index.php?md5=872DC0A962ED5730B605FB1FFA87216E">Mark Thomson - Modern Particle Physics - Cambridge University Press (2013)</a></p><p>　　这本书我也上传到了我的 telegram channel.</p><a id="more"></a><h1 id="introduction">1 - Introduction</h1><p><em>关于基本粒子和相互作用的比较简单和基础的事实。</em></p><h2 id="section">1.1</h2><p>　　搞清楚有哪些基本粒子（以及传递相互作用力的粒子），记住他们的一些性质（包括哪些粒子受到哪些力的作用）。具体看看 <strong>Table 1.1</strong>、<strong>Table 1.2</strong> 和 <strong>Table 1.3</strong>。</p><p>　　比较重要的是画费曼图。记住 <strong>Fig 1.4</strong> 里的四类顶点。在费曼图中，箭头指向永远是<strong>流进顶点后再流出顶点</strong>，不会出现两个流同时流进（流出）顶点的情况。</p><p>　　关于顶点处的耦合系数：<span class="math inline">\(cross\ section\propto |\mathcal{M}|^2\)</span>，<span class="math inline">\(\mathcal{M}\propto g^n\)</span>，其中 <span class="math inline">\(g\)</span> 是耦合系数，<span class="math inline">\(n\)</span> 是费曼图中相关顶点的个数。但因为我们总是用到 <span class="math inline">\(|\mathcal{M}|^2\)</span>，所以定义一个正比于 <span class="math inline">\(g^2\)</span> 的无量纲常数很方便。比如 QED 中的精细结构常数 <span class="math inline">\(\alpha = \frac{e^2}{4\pi\varepsilon_0 \hbar c} \approx \frac{1}{137}\)</span>。</p><p>　　有多种可能的过程同时发生的时候，强<span class="math inline">\(&gt;\)</span>电磁<span class="math inline">\(&gt;\)</span>弱。</p><h2 id="section-1">1.2</h2><p>　　在粒子对撞实验产生的粒子中，稳定的只有电子、质子、光子和很难探测到的中微子。</p><p>　　平均寿命在 <span class="math inline">\(\sim 10^{-10}{\rm s}\)</span> 以上的相对论性粒子在衰变前会飞过大概几米的距离，因此也能被探测到。这样的粒子包括：<span class="math inline">\(\mu\)</span> 子（<span class="math inline">\(\mu^{\pm}\)</span>）、中子 n（ddu）、带电 <span class="math inline">\(\pi\)</span> 介子（<span class="math inline">\(\pi^{+}({\rm u\bar{d}})\)</span> / <span class="math inline">\(\pi^{-}({\rm d \bar{u}})\)</span>）以及带电 K 介子（<span class="math inline">\(\rm K^{+}({\rm u\bar{s}})\)</span> / <span class="math inline">\(\rm K^{-}({\rm s \bar{u}})\)</span>）。</p><ul><li>带电粒子的探测</li></ul><p>　　高能带电粒子穿过某种物质时会电离原子中的电子，从而损失能量。这个能量损失（每单位距离）主要和 <span class="math inline">\(\beta \gamma\)</span> 以及物质的密度 <span class="math inline">\(\rho\)</span> 有关。</p><p>　　造成 <span class="math inline">\(\mu\)</span> 子的能量损失的主要过程是原子的电离（100 GeV 以下时），所以 <span class="math inline">\(\mu\)</span> 子穿透力极强（能够飞行几米）！因此，加速器产生的 <span class="math inline">\(\mu\)</span> 子常常会穿过整个探测仪器。</p><ul><li>光子和电子的探测</li><li>强子的探测</li></ul><h2 id="section-2">1.3</h2><h2 id="section-3">1.4</h2><p>　　<strong>重要！</strong></p><p>　　质心系下的能量（实验中可以用来产生粒子的有效能量）<span class="math inline">\(\sqrt s\)</span> 计算方法： <span class="math display">\[\begin{equation}s = \biggl(\sum_{i=1}^{2}E_i\biggr)^2-\biggl(\sum_{i=1}^{2}\mathbf{p}_i\biggr)^2.\end{equation}\]</span></p><h1 id="underlying-concepts">2 - Underlying concepts</h1><p><em>介绍自然单位制、复习狭义相对论和非相对论性量子力学。</em></p><h2 id="section-4">2.1</h2><p>　　介绍了自然单位制（多用用就熟悉了）。</p><p>　　有趣的事实：<span class="math inline">\([\hbar,\ c,\ {\rm GeV}]\)</span> 单位制中，</p><ul><li><span class="math inline">\(\hbar = 1.055 \times 10^{-34}\ {\rm J \cdot s}\)</span> 是<strong>作用量</strong>的最小单位；</li><li><span class="math inline">\(c = 2.998 \times 10^{-10}\ {\rm m\cdot s^{-1}}\)</span> 为真空中的光速</li><li><span class="math inline">\(1\ {\rm GeV} = 1.602 \times 10^{-10}\ {\rm J}\)</span> 接近质子的静质量。</li></ul><p>　　<strong>Table 2.1</strong>相当有用。</p><p>　　速算用转换系数：<span class="math inline">\(\hbar c = 0.197\ {\rm GeV \cdot fm}\)</span> （非常有用！）</p><p>　　在 Heaviside-Lorentz 单位制下，精细结构常数为 <span class="math display">\[\begin{equation}\alpha = \frac{e^2}{4\pi} \approx \frac{1}{137},\end{equation}\]</span> 由于它是无量纲常数，由此可以定义自然单位制中的单位电荷 <span class="math inline">\(e = \sqrt{4\pi \alpha} \approx 0.3028\)</span>。</p><h2 id="section-5">2.2</h2><h3 id="p33-2.2">P33 (2.2)</h3><p>　　关于 <span class="math inline">\(s^2\)</span> 为什么是不变的讨论，可以参考<a href="https://cds.cern.ch/record/1481640/files/978-3-642-30385-2_BookBackMatter.pdf">这篇</a>和<a href="https://physics.stackexchange.com/a/478042">这篇</a>。简单的理解是，当我们对这个量做洛伦兹变换的时候，它确实是不变的，所以以它为基础引入闵氏空间的度规是合适的。（个人理解，不一定对）</p><h3 id="p35-2.9">P35 (2.9)</h3><p>　　注意，下标在后的洛伦兹变换（<span class="math inline">\({\Lambda^{\mu}}_{\nu}\)</span>）代表正向的洛伦兹变换；而下标在前（<span class="math inline">\({\Lambda_{\mu}}^{\nu}\)</span>）的代表洛伦兹变换的逆。</p><h3 id="p37">P37</h3><p>　　多粒子系统的四动量（给出了<strong>系统的不变质量</strong>）： <span class="math display">\[\begin{equation}p^{\mu}p_{\mu} = \biggl(\sum_{i=1}^{n}E_i\biggr)^2-\biggl(\sum_{i=1}^{n}\mathbf{p}_i\biggr)^2.\end{equation}\]</span></p><h1 id="decay-rates-and-cross-sections">3 - Decay rates and cross sections</h1><p><em>相对论量子力学中关于截面和衰变率的计算。</em></p><h2 id="section-6">3.1</h2><p>　　</p><h2 id="section-7">3.5</h2><p>　　</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>　　课程教材：<a href="http://libgen.rs/book/index.php?md5=872DC0A962ED5730B605FB1FFA87216E">Mark Thomson - Modern Particle Physics - Cambridge University Press (2013)</a></p><p>　　这本书我也上传到了我的 telegram channel.</p><a id="more"></a><h1 id="introduction">1 - Introduction</h1><p><em>关于基本粒子和相互作用的比较简单和基础的事实。</em></p><h2 id="section">1.1</h2><p>　　搞清楚有哪些基本粒子（以及传递相互作用力的粒子），记住他们的一些性质（包括哪些粒子受到哪些力的作用）。具体看看 <strong>Table 1.1</strong>、<strong>Table 1.2</strong> 和 <strong>Table 1.3</strong>。</p><p>　　比较重要的是画费曼图。记住 <strong>Fig 1.4</strong> 里的四类顶点。在费曼图中，箭头指向永远是<strong>流进顶点后再流出顶点</strong>，不会出现两个流同时流进（流出）顶点的情况。</p><p>　　关于顶点处的耦合系数：<span class="math inline">\(cross\ section\propto |\mathcal{M}|^2\)</span>，<span class="math inline">\(\mathcal{M}\propto g^n\)</span>，其中 <span class="math inline">\(g\)</span> 是耦合系数，<span class="math inline">\(n\)</span> 是费曼图中相关顶点的个数。但因为我们总是用到 <span class="math inline">\(|\mathcal{M}|^2\)</span>，所以定义一个正比于 <span class="math inline">\(g^2\)</span> 的无量纲常数很方便。比如 QED 中的精细结构常数 <span class="math inline">\(\alpha = \frac{e^2}{4\pi\varepsilon_0 \hbar c} \approx \frac{1}{137}\)</span>。</p><p>　　有多种可能的过程同时发生的时候，强<span class="math inline">\(&gt;\)</span>电磁<span class="math inline">\(&gt;\)</span>弱。</p><h2 id="section-1">1.2</h2><p>　　在粒子对撞实验产生的粒子中，稳定的只有电子、质子、光子和很难探测到的中微子。</p><p>　　平均寿命在 <span class="math inline">\(\sim 10^{-10}{\rm s}\)</span> 以上的相对论性粒子在衰变前会飞过大概几米的距离，因此也能被探测到。这样的粒子包括：<span class="math inline">\(\mu\)</span> 子（<span class="math inline">\(\mu^{\pm}\)</span>）、中子 n（ddu）、带电 <span class="math inline">\(\pi\)</span> 介子（<span class="math inline">\(\pi^{+}({\rm u\bar{d}})\)</span> / <span class="math inline">\(\pi^{-}({\rm d \bar{u}})\)</span>）以及带电 K 介子（<span class="math inline">\(\rm K^{+}({\rm u\bar{s}})\)</span> / <span class="math inline">\(\rm K^{-}({\rm s \bar{u}})\)</span>）。</p><ul><li>带电粒子的探测</li></ul><p>　　高能带电粒子穿过某种物质时会电离原子中的电子，从而损失能量。这个能量损失（每单位距离）主要和 <span class="math inline">\(\beta \gamma\)</span> 以及物质的密度 <span class="math inline">\(\rho\)</span> 有关。</p><p>　　造成 <span class="math inline">\(\mu\)</span> 子的能量损失的主要过程是原子的电离（100 GeV 以下时），所以 <span class="math inline">\(\mu\)</span> 子穿透力极强（能够飞行几米）！因此，加速器产生的 <span class="math inline">\(\mu\)</span> 子常常会穿过整个探测仪器。</p><ul><li>光子和电子的探测</li><li>强子的探测</li></ul><h2 id="section-2">1.3</h2><h2 id="section-3">1.4</h2><p>　　<strong>重要！</strong></p><p>　　质心系下的能量（实验中可以用来产生粒子的有效能量）<span class="math inline">\(\sqrt s\)</span> 计算方法： <span class="math display">\[\begin{equation}s = \biggl(\sum_{i=1}^{2}E_i\biggr)^2-\biggl(\sum_{i=1}^{2}\mathbf{p}_i\biggr)^2.\end{equation}\]</span></p><h1 id="underlying-concepts">2 - Underlying concepts</h1><p><em>介绍自然单位制、复习狭义相对论和非相对论性量子力学。</em></p><h2 id="section-4">2.1</h2><p>　　介绍了自然单位制（多用用就熟悉了）。</p><p>　　有趣的事实：<span class="math inline">\([\hbar,\ c,\ {\rm GeV}]\)</span> 单位制中，</p><ul><li><span class="math inline">\(\hbar = 1.055 \times 10^{-34}\ {\rm J \cdot s}\)</span> 是<strong>作用量</strong>的最小单位；</li><li><span class="math inline">\(c = 2.998 \times 10^{-10}\ {\rm m\cdot s^{-1}}\)</span> 为真空中的光速</li><li><span class="math inline">\(1\ {\rm GeV} = 1.602 \times 10^{-10}\ {\rm J}\)</span> 接近质子的静质量。</li></ul><p>　　<strong>Table 2.1</strong>相当有用。</p><p>　　速算用转换系数：<span class="math inline">\(\hbar c = 0.197\ {\rm GeV \cdot fm}\)</span> （非常有用！）</p><p>　　在 Heaviside-Lorentz 单位制下，精细结构常数为 <span class="math display">\[\begin{equation}\alpha = \frac{e^2}{4\pi} \approx \frac{1}{137},\end{equation}\]</span> 由于它是无量纲常数，由此可以定义自然单位制中的单位电荷 <span class="math inline">\(e = \sqrt{4\pi \alpha} \approx 0.3028\)</span>。</p><h2 id="section-5">2.2</h2><h3 id="p33-2.2">P33 (2.2)</h3><p>　　关于 <span class="math inline">\(s^2\)</span> 为什么是不变的讨论，可以参考<a href="https://cds.cern.ch/record/1481640/files/978-3-642-30385-2_BookBackMatter.pdf">这篇</a>和<a href="https://physics.stackexchange.com/a/478042">这篇</a>。简单的理解是，当我们对这个量做洛伦兹变换的时候，它确实是不变的，所以以它为基础引入闵氏空间的度规是合适的。（个人理解，不一定对）</p><h3 id="p35-2.9">P35 (2.9)</h3><p>　　注意，下标在后的洛伦兹变换（<span class="math inline">\({\Lambda^{\mu}}_{\nu}\)</span>）代表正向的洛伦兹变换；而下标在前（<span class="math inline">\({\Lambda_{\mu}}^{\nu}\)</span>）的代表洛伦兹变换的逆。</p><h3 id="p37">P37</h3><p>　　多粒子系统的四动量（给出了<strong>系统的不变质量</strong>）： <span class="math display">\[\begin{equation}p^{\mu}p_{\mu} = \biggl(\sum_{i=1}^{n}E_i\biggr)^2-\biggl(\sum_{i=1}^{n}\mathbf{p}_i\biggr)^2.\end{equation}\]</span></p><h1 id="decay-rates-and-cross-sections">3 - Decay rates and cross sections</h1><p><em>相对论量子力学中关于截面和衰变率的计算。</em></p><h2 id="section-6">3.1</h2><p>　　</p><h2 id="section-7">3.5</h2><p>　　</p><h1 id="the-dirac-equation">4 - The Dirac equation</h1><p><em>狄拉克方程</em></p><h2 id="section-8">4.1</h2><p>　　简要介绍了 Klein-Gordon方程以及相关的负能量负概率问题，看看就行了。</p><h2 id="section-9">4.2</h2><p>　　</p>]]></content:encoded>
       
       
       <category domain="https://blog.chen-137.me/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/">物理笔记</category>
@@ -105,7 +105,7 @@
       
       
       
-      <content:encoded><![CDATA[<p>　　前半夜的梦似乎依旧是被人群追杀的经典桥段。</p><p>　　再次入睡后，我遇到了一条大蛇。那是一条会说话的大蛇，通体有着绿色的鳞片，总共四只还是六只眼睛，每只眼睛有三片虹膜。</p><a id="more"></a><p>　　开始奶奶告诉我院子里有蛇的时候，我并没有太在意。走到院子里，才发现是一条巨大无比的蛇，在院子里的残墙后休息着。墙是灰色的，很高，但我心里明白它黄土搭成的；墙上有个五十厘米见方的空洞，姑且可以算作窗户，透过它就可以看见蛇的身体。而当我望向窗户的时候，却看到了不可思议的光景：我的高中同学阿杰（仮名）就坐在窗沿上，似乎正在和那条大蛇对话。不多久他就注意到了我，于是转过头来对我说：“这条蛇是无害的。”之后，这景象就消散了，取而代之的是直视着我的九个瞳孔。</p><p>　　就像他说的，那并不是一条凶猛好斗的蛇。他只是安静地在我们身边游动，从窗户游进又游出。但迫于那硕大的体形的压迫力，我们依旧一动也不敢动。僵持了一会以后，蛇开口了。他的声音低沉又嘶哑，但不浑厚，只是平庸的音色的集合，就像一件起了球的毛衣，织成它的毛线是街上每一个过路行人的声音。但出乎意料的是，这声音里没有夹杂嘶嘶声。蛇用缓慢易懂的句子讲述着他与曾经的爱人的回忆，也告诉我们他的心怎样一点点碎裂。他说了什么，我已经全部忘记了；但在残留的印象里，那些句子里没有悲伤，只有异样的平静。</p><p>　　于是我们抛出越来越多的问题。也许是因为得寸进尺了，像是警告一般，我脑中突然闪过一个骷髅头——黑色的衬底上，由红色的墨水描出的骷髅头。头骨的一半是溃烂的，像是被烫伤的皮肉生出的水泡层叠在了一起。于是大蛇发了狂，开始撕咬周围的一切，包括构成梦境的材质本身。我扭头就跑，向外面狂奔。</p><p>　　回头时，似乎看到一幅画，画中有一堵灰墙，和舞动的大蛇。</p><p>季<br />21 年 4 月 10 日 梦中</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>　　前半夜的梦似乎依旧是被人群追杀的经典桥段。</p><p>　　再次入睡后，我遇到了一条大蛇。那是一条会说话的大蛇，通体有着绿色的鳞片，总共四只还是六只眼睛，每只眼睛有三片虹膜。</p><a id="more"></a><p>　　开始奶奶告诉我院子里有蛇的时候，我并没有太在意。走到院子里，才发现是一条巨大无比的蛇，在院子里的残墙后休息着。墙是灰色的，很高，但我清楚它是用黄土搭成的；墙上有个五十厘米见方的空洞，姑且可以算作窗户，透过它就可以看见蛇的身体。而当我望向窗户的时候，却看到了不可思议的光景：我的高中同学阿杰（化名）就坐在窗沿上，似乎正在和那条大蛇对话。不多久后他注意到了我，就转过头来对我说：“这条蛇是无害的。”话音刚落下，这景象就消散了，取而代之的是直视着我的九个瞳孔。</p><p>　　就像他说的，那并不是一条凶猛好斗的蛇。他只是安静地在我们身边游动，从窗户游进又游出。但迫于那硕大的体形的压迫力，我们依旧一动也不敢动。僵持了一会以后，蛇开口了。他的声音低沉又嘶哑，但不浑厚，只是平庸的音色的集合，就像一件起了球的毛衣，织成它的毛线是街上每一个过路行人的声音。但出乎意料的是，这声音里没有夹杂嘶嘶声。蛇用缓慢易懂的句子讲述着他与曾经的爱人的回忆，也告诉我们他的心怎样一点点碎裂。他说了什么，我已经全部忘记了；但在残留的印象里，那些句子里没有悲伤，只有异样的平静。</p><p>　　于是我们抛出越来越多的问题。也许是因为得寸进尺了，像是警告一般，我脑中突然闪过一个骷髅头——黑色的衬底上，由红色的墨水描出的骷髅头。头骨的一半是溃烂的，像是被烫伤的皮肉生出的水泡层叠在了一起。于是大蛇发了狂，开始撕咬周围的一切，包括构成梦境的材质本身。我扭头就跑，向外面狂奔。</p><p>　　回头时，似乎看到一幅画，画中有一堵灰墙，和舞动的大蛇。</p><p>季<br />21 年 4 月 10 日 梦中</p>]]></content:encoded>
       
       
       <category domain="https://blog.chen-137.me/categories/%E9%9A%8F%E7%AC%94/">随笔</category>
@@ -278,9 +278,9 @@
       <category domain="https://blog.chen-137.me/categories/%E4%B9%A6%E6%8A%84/">书抄</category>
       
       
-      <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
-      
       <category domain="https://blog.chen-137.me/tags/%E5%A4%AA%E5%AE%B0%E6%B2%BB/">太宰治</category>
+      
+      <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
       
       
       <comments>https://blog.chen-137.me/2021/01/16/%E4%B9%A6%E6%8A%84-%E3%83%BB%E3%80%8A%E7%BB%B4%E5%BA%B8%E4%B9%8B%E5%A6%BB%E3%80%8B/#disqus_thread</comments>
@@ -407,9 +407,9 @@
       <category domain="https://blog.chen-137.me/categories/%E4%B9%A6%E6%8A%84/">书抄</category>
       
       
-      <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
-      
       <category domain="https://blog.chen-137.me/tags/%E5%A4%AA%E5%AE%B0%E6%B2%BB/">太宰治</category>
+      
+      <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
       
       
       <comments>https://blog.chen-137.me/2019/11/19/%E4%B9%A6%E6%8A%84-%E3%83%BB%E3%80%8A%E4%BA%BA%E9%97%B4%E5%A4%B1%E6%A0%BC%E3%80%8B/#disqus_thread</comments>
@@ -472,9 +472,9 @@
       <category domain="https://blog.chen-137.me/categories/%E4%B9%A6%E6%8A%84/">书抄</category>
       
       
-      <category domain="https://blog.chen-137.me/tags/%E5%B7%9D%E7%AB%AF%E5%BA%B7%E6%88%90/">川端康成</category>
-      
       <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
+      
+      <category domain="https://blog.chen-137.me/tags/%E5%B7%9D%E7%AB%AF%E5%BA%B7%E6%88%90/">川端康成</category>
       
       
       <comments>https://blog.chen-137.me/2018/12/23/%E4%B9%A6%E6%8A%84-%E3%83%BB%E3%80%8A%E9%9B%AA%E5%9B%BD%E3%80%8B/#disqus_thread</comments>
@@ -503,9 +503,9 @@
       <category domain="https://blog.chen-137.me/categories/%E4%B9%A6%E6%8A%84/">书抄</category>
       
       
-      <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
-      
       <category domain="https://blog.chen-137.me/tags/%E5%A4%AA%E5%AE%B0%E6%B2%BB/">太宰治</category>
+      
+      <category domain="https://blog.chen-137.me/tags/%E6%97%A5%E6%9C%AC%E6%96%87%E5%AD%A6/">日本文学</category>
       
       
       <comments>https://blog.chen-137.me/2018/08/22/%E4%B9%A6%E6%8A%84-%E3%83%BB%E3%80%8A%E6%96%9C%E9%98%B3%E3%80%8B/#disqus_thread</comments>
