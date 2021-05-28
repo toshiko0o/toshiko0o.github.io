@@ -6,7 +6,9 @@ comments: false
 mathjax: true
 ---
 
-<center><font size = 8> 你好，欢迎。 </font></center>
+<font size = 8> 你好，欢迎。 </font>
+
+</br>
 
 # 关于昵称
 
@@ -26,36 +28,41 @@ mathjax: true
 
 # 关于站点名
 
-　　在站点名称**chen-137**中，**chen**来自我的本名，**137**取自**精细结构常数**：$\alpha \approx 1/137$。
+　　在站点名称 **chen-137** 中，**chen** 来自我的本名，**137** 取自**精细结构常数**：$\alpha \approx 1/137$。
 
 # 关于博客内容
 
 - 书抄（小说为主）
 - 笔记（物理及计算机相关为主）
-- 二次元（动画推荐、镜头选集、OST等）
+- 二次元（动画推荐、镜头选集、OST 等）
 - 随笔（故作痛苦时的呓语）
 - 類空星逝（短博客选集）
 
 　　因为太懒，总是挖坑不填。
 
-　　如发现有公式显示不全的情况，请尝试修改网页缩放。（由于技术力低下，无法解决此问题。）
+　　如发现有公式显示不全的情况，请尝试修改网页缩放。（由于技术力低下，暂时无法解决此问题。）
 
 # 关于我
 
-　　二次元，最推荐的动画是《EVA》系列。明日香厨。
+　　动画爱好者，最推荐的动画是《EVA》系列。明日香厨。
 
-　　喜欢玩游戏（不过通关的游戏也不是很多），最推荐《蔚蓝》。
+　　喜欢玩游戏（不过完整通关的游戏也不是很多），最推荐《蔚蓝》。
 
-　　理论物理研究生，研究方向暂定Lattice QCD，处于并将长期处于阅读教科书阶段。
+　　理论物理研究生，研究方向暂定 Lattice QCD，处于并将长期处于阅读教科书阶段。
 
 　　回望来路，一直挣扎，一直彷徨，有时原地打转，有时前进。彷徨时的自我剖析，以及痛苦时那些无声的呐喊，全部收录在 [非健全人的自我救赎](https://blog.chen-137.me/tags/非健全人的自我救赎/) 及 [類空星逝](https://blog.chen-137.me/microblog/) 中。我决定不再逃避这些——它们是我明灭不定的生活里的某种“乐趣”，也是我在无垠的荒原上维持自我的参照物。现在，我要做的是承认它们。我要承认自己平淡的，有时甚至是令人不快的过去，因为每个时刻的自己都不应该被抛弃，每一个留下的路标都不应该被诅咒。发生过的事不可挽回，那就全部囫囵吞下，用力消化，仔细挑拣，剔掉坏的部分，挑出曾经让我感到过善和美的东西，带着它们，迎向世间那荒诞而无序的阵风，继续向前走下去。
 
 　　即使理想主义注定给所有人带来不幸，我也会尽全力背负着它活下去。
 
+　　最后，以此句自勉：
+　　
+<center><font size = 6>γνῶθι σεαυτόν</font></center>  
+<center><font size = 3>认识你自己</font></center>
+
 ***
 
 <img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/God's_in_his_heaven.jpg" alt="God's_in_his_heaven" style="zoom:75%;" />
 
-<center><font size = 1> **图片为画师<a href="https://www.pixiv.net/users/13447132/">@qosic</a>作品。作品pixiv id为<a href="https://www.pixiv.net/artworks/80472549/">80472549</a>。色调及尺寸有改动。** </font></center>
+<center><font size = 1> **插入图片为画师<a href="https://www.pixiv.net/users/13447132/">@qosic</a>作品。作品pixiv id为<a href="https://www.pixiv.net/artworks/80472549/">80472549</a>。色调及尺寸有改动。** </font></center>
 
 <center><font size = 1> **头像为<a href="https://gc-press.co.jp/">G.C.PRESS</a>出品的<a href="https://gc-press.co.jp/?pid=124163364">“便箋 ハリネズミ”</a>封面上的小刺猬。非常可爱！** </font></center>
