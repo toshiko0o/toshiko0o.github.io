@@ -118,13 +118,12 @@ darkmode: false
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  #galleries: /galleries/ || fas fa-image
+  friends: /friends/ || fa fa-link
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  #tags: /tags/ || fa fa-tags
-  friends: /friends/ || fa fa-link
-  guestbook: /guestbook/ || fa fa-comment
   microblog: /microblog/ || fab fa-tencent-weibo
+  #tags: /tags/ || fa fa-tags
+  #guestbook: /guestbook/ || fa fa-comment
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -625,13 +624,13 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true
-  appid: m2keILuLofAljOnwIcfMAulk-MdYXbMMI
-  appkey: gCnBMxEO9Xi03AXQunew81pi
+  enable: false
+  appid: # m2keILuLofAljOnwIcfMAulk-MdYXbMMI
+  appkey: # gCnBMxEO9Xi03AXQunew81pi
   notify: true # Mail notifier
   verify: false # Verification code
   placeholder: 右下角表情图标旁边是预览，可以确认MD语法是否正确；如已有Gravator头像，填写邮箱后就可以显示哦～ # Comment box placeholder
-  avatar:  retro # Gravatar style
+  avatar:  identicon # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 1000 # Pagination size
   language: zh-CN # Language, available values: en, zh-cn
