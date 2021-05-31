@@ -117,3 +117,9 @@ deploy:
 # Sitemap
 sitemap: 
   path: sitemap.xml
+
+symbols_count_time:
+  symbols: false # 文章字数
+  time: false # 阅读时长
+  total_symbols: false # 所有文章总字数
+  total_time: false # 所有文章阅读中时长
