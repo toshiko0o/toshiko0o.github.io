@@ -33,7 +33,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/toshiko0o/image-host/master/%E9%B8%AD%E5%B7%9D_1.JPG">
 <meta property="og:image" content="https://raw.githubusercontent.com/toshiko0o/image-host/master/%E9%B8%AD%E5%B7%9D_2.JPG">
 <meta property="article:published_time" content="2021-03-16T10:19:00.000Z">
-<meta property="article:modified_time" content="2021-05-30T17:05:35.708Z">
+<meta property="article:modified_time" content="2021-06-01T09:09:19.095Z">
 <meta property="article:author" content="hayakawa">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/toshiko0o/image-host/master/%E9%B8%AD%E5%B7%9D_1.JPG">
@@ -229,6 +229,15 @@
 <li><p>其实我也不知道自己在说什么，不过把没有意义的话语叠在一起，假装另有它义的话，总是会有人帮我完成建构的。</p></li>
 </ul>
 </blockquote>
+<hr />
+<p><em>2019-10-14 01:43</em></p>
+<p>　　但是现在我对以后究竟应该研究什么还是充满疑惑，是偏向数学还是偏向唯象也想不清楚。按照我一贯的想法，肯定做越玄妙越高深的研究就越好，最好是在纯数学的层面去构建理论。但是知道了超弦理论遭受诟病的原因，同时也对物理学了解得更深入了以后，我隐约感觉这种在纯粹的精神层面上的自娱自乐并不利于我了解这个世界的基础结构。我要研究的是<strong>物理</strong>，我要解析的是物质运行的规律，而不是要去追求虚无缥缈的“数学之美”。追求理论的简洁依旧是必须的，但究竟什么是“美”，这实在是一个很难定义的概念。我想，当我把隐藏在完整且运行良好的宇宙系统中的规律找出来，能够用数学描述它，同时没有在理论中引入过多冗杂的条件时，我就已经追求到了某种“理论之美”了。这或许才是我更想做的事。</p>
+<hr />
+<p><em>2019-10-14 01:18</em></p>
+<p>　　以前学的物理知识都像是刻在 DNA 里的。且不说牛顿力学，即使是在学习相对论性量子力学的时候，都觉得这个理论本就应当是这样的，理论作出的假设都是自然的，提出的物理量都是“真实”存在的。可最初在场论中通过平移不变性得到守恒量以后，总感觉我们只不过是为了方便而将某个量命名成了守恒量，而它并不是传统理论中“真实”存在的物理量；还有在把算符作用到真空态上所得到的态描述为单粒子态时，总感觉这只是数学上的花样。后来仔细想了想，其实从古至今构建理论的过程并无不同，都是 <span class="math inline">\(可测物理量\rightarrow 数学\rightarrow 抽象物理量（理论）\rightarrow 数学\rightarrow 对可测物理量作出的预测\)</span>，而“数学上的花样”其实就是流程中关于抽象物理量的部分。只要这种“花样”可以给出合理的预测，我们就应该接受它。所以本来也没有什么“真实”的物理量，它们都是人类为了方便所创造的概念，是人类自己对于世界的理解。</p>
+<hr />
+<p><em>2019-10-14 01:00</em></p>
+<p>　　有时候也说说物理吧，感觉从来都没有提过。之前在学广义相对论的时候就在想，既然流形大概可以被认为是传统欧式空间的一种推广的话，那么对于量子力学来说，是不是也可以对作为态空间的希尔伯特空间做类似的推广，从而得到一个无限维的流形空间呢？本来以为这是一个毫无物理意义的瞎想，但后来听说有人在做这方面的工作，着实让我吃了一惊。不过考虑到角动量算符本身就具有 SU(2) 的代数结构，以前又看到科普说李代数和流形的关系非常紧密，那么量子力学态空间说不定就是由流形来描述的。不过现在也只能空想，用来做具体计算的数学工具没有一个是熟练掌握了的，还是要学更多东西才行。</p>
 <hr />
 <p><em>2019-10-06 23:49</em></p>
 <p>　　我原以为那栋古旧的楼倒了，就可以坐在草坪上看星星了。我没有想到，楼倒了，路灯却也修好了。晚间路过草坪，夜色凝滞在油腻的橙黄色灯光里，星星已经看不见几颗了。</p>
@@ -547,6 +556,59 @@
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
