@@ -121,6 +121,7 @@ menu:
   friends: /friends/ || fa fa-link
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  galleries: https://artwork.chen-137.me || fas fa-camera-retro
   microblog: /microblog/ || fab fa-tencent-weibo
   #tags: /tags/ || fa fa-tags
   #guestbook: /guestbook/ || fa fa-comment
@@ -180,6 +181,7 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
+  #Gallery: https://artwork.chen-137.me || fa fa-images
   #GitHub: https://github.com/toshiko0o || fab fa-github
   E-Mail: mailto:toshiko.h19@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
@@ -205,8 +207,8 @@ social_icons:
 #   # Available values: block | inline
 #   layout: block
 
-links:
-  季子的相册: https://artwork.chen-137.me
+# links:
+#   季子的相册: https://artwork.chen-137.me
 #   Starlite: https://starlite.me/ 
 #   なままめ: https://robinzed.wordpress.com/ 
 #   Yuki: https://blog.tfei.moe/
