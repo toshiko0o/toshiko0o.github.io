@@ -1,4 +1,5 @@
 ---
+title: 站点简介
 date: 2018-07-18 17:18:50
 type: "about"
 layout: "about"
@@ -6,9 +7,6 @@ comments: false
 mathjax: true
 ---
 
-<font size = 8> 你好，欢迎。 </font>
-
-</br>
 
 # 关于昵称
 
