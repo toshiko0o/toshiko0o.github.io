@@ -1,5 +1,5 @@
 ---
-title: Particle Physics
+title: Particle Physics Note
 date: 2021-05-08 20:56:36
 categories: 
 - 物理笔记
@@ -12,7 +12,7 @@ mathjax: true
 
 　　课程教材：[Mark Thomson - Modern Particle Physics - Cambridge University Press (2013)](http://libgen.rs/book/index.php?md5=872DC0A962ED5730B605FB1FFA87216E)
 
-　　这本书我也上传到了我的 telegram channel. 
+　　这本书我也上传到了我的 telegram channel
 
 <!--more-->
 
@@ -43,11 +43,30 @@ mathjax: true
 　　造成 $\mu$ 子的能量损失的主要过程是原子的电离（100 GeV 以下时），所以 $\mu$ 子穿透力极强（能够飞行几米）！因此，加速器产生的 $\mu$ 子常常会穿过整个探测仪器。
 
 - 光子和电子的探测
+
+　　在能量高于 critical energy ($E_c$) 的情况下，电子能量损失的主要原因是 remsstrahlung（轫致辐射）。其中
+$$
+\begin{equation}
+E_c \sim \frac{800}{Z}MeV. 
+\end{equation}
+$$
+　　在实际的实验中，电子的能量基本在 $GeV$ 量级。
+
+　　轫致辐射的能量损失与粒子质量的平方成反比。所以对电子，它是能量损失的主要原因；而对 $\mu$ 子，电离是能量损失的主要原因。
+
+　　对光子，能量损失的原因：
+
+1. 低能：光电效应
+2. $E_{\gamma} \sim 1\ MeV$：康普顿散射
+3. $E_{\gamma} > 10\ MeV$：$e^-e^+$ 对的产生
+
 - 强子的探测
+
+　　"hadronic showers"
 
 ## 1.3
 
-
+　　介绍了粒子对撞机和如何探测夸克。（略）
 
 ## 1.4
 
@@ -127,7 +146,35 @@ $$
 
 　　简要介绍了 Klein-Gordon方程以及相关的负能量负概率问题，略。
 
-## 4.2 
+## 4.2
 
-　　
+　　(4.8) 的推导可以写简单点：
+$$
+\begin{equation}
+\begin{aligned}
+E^2\psi &= (\boldsymbol{\alpha} \cdot \mathbf{p} +\beta m)^2 \psi	 \\
+        &= \Bigl((\boldsymbol{\alpha} \cdot \mathbf{p})^2 + \{\boldsymbol{\alpha} \cdot \mathbf{p}, \beta\}m+ \beta^2 m^2\Bigr) \psi\\
+        &= \Bigl(\alpha_1^2 p_1^2 + \alpha_2^2 p_2^2 + \alpha_3^2 p_3^2 +  \beta^2 m^2 \\
+        &\quad \ + \{\alpha_1, \alpha_2\}p_1 p_2 + \{\alpha_2, \alpha_2\}p_2 p_3 + \{\alpha_1, \alpha_3\}p_1 p_3 \\
+        &\quad \ + \{\alpha_1, \beta\}p_1 m + \{\alpha_2, \beta\}p_2 m + \{\alpha_3, \beta\}p_3 m \Bigr)\psi. 
+\end{aligned}
+\end{equation}
+$$
+　　之后只需再和 C-K 方程对比：
+$$
+\begin{equation}
+E^2 \psi = p_1^2 + p_2^2 + p_3^2 + m^2, 
+\end{equation}
+$$
+即可得到 $\boldsymbol\alpha$ 和 $\beta$ 的性质。
+
+　　狄拉克哈密顿量：$H_D = (\boldsymbol{\alpha} \cdot \mathbf{p} +\beta m)$. 
+
+ 
+
+# 5 - Interaction by particle exchange
+
+
+
+# 6 - Electron–positron annihilation
 

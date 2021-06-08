@@ -1,5 +1,5 @@
 ---
-title: QFT book by Peskin & Schroeder
+title: Peskin QFT Note
 date: 2021-04-22 18:03:40
 categories: 
 - 物理笔记
@@ -37,7 +37,7 @@ mathjax: true
 > - $A_\mu(x)$：矢量场（电磁场）
 > - $\psi(x)$：旋量场
 
-### P.14 Eq-1
+### P.14 - Eq-1
 
 　　$E = \mathbf{p}^2/2m$ 时，$U(t)$ 为：
 $$
@@ -62,7 +62,7 @@ $$
 \end{equation}
 $$
 
-### P.14​ Eq-2
+### P.14​ - Eq-2
 
 　　$E = \sqrt{\mathbf{p}^2+m^2}$ 时，$U(t)$ 为：
 $$
@@ -80,7 +80,7 @@ U(t) &= \mathinner{\langle \mathbf{x}|}e^{-it\sqrt{\mathbf{p}^2+m^2}}\mathinner{
 $$
 　　在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了 $z$-axis 的正方向. 
 
-### P.15 Figure 2.1
+### P.15 - Figure 2.1
 
 　　两个事件之间的间隔是洛伦兹标量，即
 $$
@@ -104,7 +104,7 @@ $$
 
 > 我的理解：只有这样在向空间的无穷远处积分时才能到达时间上的边界。可以画个图感受一下。
 
-### P15 (2.2) (2.3)
+### P15 - (2.2) (2.3)
 
 　　这里的
 $$
@@ -133,6 +133,70 @@ $$
 > \mathcal{L}_{Schr\ddot{o}dinger} = i\hbar\psi^\dagger\frac{\partial \psi}{\partial t} - \frac{\hbar^2}{2m}\mathbf{\nabla}\psi^\dagger\mathbf{\nabla}\psi - V(\mathbf x)\psi^\dagger\psi.
 > $$
 
+### P16 - Hamiltonian Field Theorem
 
+　　这里关于哈密顿形式的场论并没有讲完（没有导出运动方程）。导出运动方程要给出场变量和其共轭动量之间的对易/反对易关系，再计算 Heisenberg equation 得到运动方程。
+
+> Heisenberg equation： $i\frac{\partial}{\partial t}\mathcal{O} = [\mathcal{O}, H]$. 
+
+　　Hamiltonian Field Theorem 实际上是和 Lagrangian Field Theorem 不同的路径。而为了保证它能给出正确的运动方程，正则量子化的方法只有两种，也就是上面提到的（等时）对易/反对易关系。
+
+### P17 - Noether's Theorem
+
+　　Peskin 这里的表述非常不自然，稍微解释一下。
+
+　　对于一个对称变换，必定使得 (2.10) 成立。这是对称变换的定义，与导出守恒流的过程无关。导出守恒流时，可以直接考虑由坐标变换对场及拉氏量造成的影响。例如当考虑变换
+$$
+\begin{equation}
+x^{\mu} \rightarrow x'^{\mu} = x^{\mu} + {\alpha\Delta x}^{\mu}
+\end{equation}
+$$
+时，**由此引起**的场的变化为
+$$
+\begin{equation}
+\phi \rightarrow \phi' = \phi + \alpha\Delta\phi ，
+\end{equation}
+$$
+那么拉氏量的变化部分 $\alpha\Delta\mathcal{L}$ 可以写为
+$$
+\begin{equation}
+\begin{aligned}
+\alpha\Delta\mathcal{L} &= \mathcal{L}'(\phi', \partial_{\mu}\phi',x'^{\mu}) - \mathcal{L}(\phi, \partial_{\mu}\phi,x^{\mu}) \\
+                        &= \frac{\partial\mathcal{L}}{\partial \phi}(\alpha\Delta\phi) + \frac{\partial\mathcal{L}}{\partial (\partial_{\mu}\phi)}\partial_{\mu}(\alpha\Delta\phi) + \partial_{\mu}\mathcal{L}(\alpha\Delta x^{\mu}) \\
+                        &= \alpha \partial_{\mu}\biggl( \frac{\partial\mathcal{L}}{\partial (\partial_{\mu}\phi)}\Delta\phi + \mathcal{L}\Delta x^{\mu}\biggr),
+\end{aligned}
+\end{equation}
+$$
+这样在守恒流中引入与拉氏量有关的那一项就自然多了（与书中推导能动量守恒流的例子也是一致的）。而上述推导也表明，这一项总在有坐标变换时出现。
+
+> 这是非常粗略的解释。更仔细的推导可以参考 Goldstein 书中的 13.7 一节，看到推导出 (13.142) 即可。
+
+　　而这里我还有另一个疑惑。由上述推导，我们发现任意的全局变换（$\alpha$ 为常数）都会导致拉氏量变化一个 4-divergence，而这是不是意味着任意的全局变换都是对称变换呢？
+
+### P18 - (2.13)
+
+　　
+
+## 2.3 The Klein-Gordon Field as Harmonic Oscillators
+
+
+
+## 2.4 The Klein-Gordon Field in Space-Time 
+
+
+
+## Problems
+
+### 2.1
+
+
+
+### 2.2
+
+
+
+### 2.3
+
+　　略
 
 # Chapter 3 - The Dirac Field

@@ -205,7 +205,8 @@ social_icons:
 #   # Available values: block | inline
 #   layout: block
 
-# links:
+links:
+  季子的相册: https://artwork.chen-137.me
 #   Starlite: https://starlite.me/ 
 #   なままめ: https://robinzed.wordpress.com/ 
 #   Yuki: https://blog.tfei.moe/
