@@ -11,6 +11,8 @@ mathjax: true
 
 　　这是一篇基于 Peskin book 的量子场论学习笔记，主要对一些复杂的计算和难以理解的段落（参考前人的笔记）作了注释，同时根据研究生课程内容对部分较为简略的段落添加了补充说明。由于计算相当困难，并且许多概念及物理图像也需经仔细思考后才能理解，故本篇笔记将以中文呈现。若后有闲暇，将转译为英文。
 
+　　如发现任何错误或遗漏，或希望与我讨论书中的内容，欢迎通过邮件联系。
+
 <!--more-->
 
 # Chapter 1 - Invitation
@@ -115,13 +117,13 @@ $$
 具体可以写成：
 $$
 \begin{equation}
-\frac{\partial \mathcal{L}}{\partial\dot\phi}\delta  \dot{\phi}+\frac{\partial \mathcal{L}}{\partial(\mathbf{\nabla} \phi)}\delta(\mathbf{\nabla} \phi),
+\frac{\partial \mathcal{L}}{\partial\dot\phi}\delta  \dot{\phi}+\frac{\partial \mathcal{L}}{\partial(\boldsymbol{\nabla} \phi)}\delta(\boldsymbol{\nabla} \phi),
 \end{equation}
 $$
 　　所以这里和下面的计算中出现的都不是四矢量的内积，只是各分量偏微分的和的简写（可以全部展开算一遍）。于是最后的 Euler-Lagrange equation 也可以写为
 $$
 \begin{equation}
-\frac{\partial}{\partial t}\biggl(\frac{\partial \mathcal{L}}{\partial\dot\phi}\biggr) + \mathbf{\nabla} \biggl(\frac{\partial \mathcal{L}}{\partial(\mathbf{\nabla} \phi)}\biggr) - \frac{\partial \mathcal{L}}{\partial \phi} = 0,
+\frac{\partial}{\partial t}\biggl(\frac{\partial \mathcal{L}}{\partial\dot\phi}\biggr) + \boldsymbol{\nabla} \biggl(\frac{\partial \mathcal{L}}{\partial(\boldsymbol{\nabla} \phi)}\biggr) - \frac{\partial \mathcal{L}}{\partial \phi} = 0,
 \end{equation}
 $$
 这在利用薛定谔场的拉氏量导出薛定谔方程的时候很有用。
@@ -130,7 +132,7 @@ $$
 
 > 补充 ：薛定谔场的拉氏量
 > $$
-> \mathcal{L}_{Schr\ddot{o}dinger} = i\hbar\psi^\dagger\frac{\partial \psi}{\partial t} - \frac{\hbar^2}{2m}\mathbf{\nabla}\psi^\dagger\mathbf{\nabla}\psi - V(\mathbf x)\psi^\dagger\psi.
+> \mathcal{L}_{Schr\ddot{o}dinger} = i\hbar\psi^\dagger\frac{\partial \psi}{\partial t} - \frac{\hbar^2}{2m}\boldsymbol{\nabla}\psi^\dagger\boldsymbol{\nabla}\psi - V(\mathbf x)\psi^\dagger\psi.
 > $$
 
 ### P16 - Hamiltonian Field Theorem
@@ -167,11 +169,15 @@ $$
 \end{aligned}
 \end{equation}
 $$
-这样在守恒流中引入与拉氏量有关的那一项就自然多了（与书中推导能动量守恒流的例子也是一致的）。而上述推导也表明，这一项总在有坐标变换时出现。
+这样在守恒流中引入与拉氏量有关的那一项就自然多了（使用这样定义的守恒流推导能动量守恒流时，得到的结果和书中的例子也是一致的）。而上述推导也表明，这一项总在有坐标变换时出现。
 
-> 这是非常粗略的解释。更仔细的推导可以参考 Goldstein 书中的 13.7 一节，看到推导出 (13.142) 即可。
+> 这是非常不严格（可以说是有错误）的推导。完整的推导可以参考 Goldstein 书中的 13.7 一节，看到推导出 (13.142) 即可。
 
-　　而这里我还有另一个疑惑。由上述推导，我们发现任意的全局变换（$\alpha$ 为常数）都会导致拉氏量变化一个 4-divergence，而这是不是意味着任意的全局变换都是对称变换呢？
+　　但我还有另一个疑惑。由上述推导，我们发现任意的全局变换（$\alpha$ 为常数）都会导致拉氏量变化一个 4-divergence，而这是不是意味着任意的全局变换都是对称变换呢？
+
+　　参考 Weinberg 的 QFT 第 1 卷中 7.3 节的讨论，实际上守恒流的导出是需要考虑局域变换的（此时 $\alpha = \alpha(x)$）。
+
+　　参考 Hagen Kleinert 的课程中的[解释](http://users.physik.fu-berlin.de/~kleinert/b6/psfiles/Chapter-7-conslaw.pdf)，
 
 ### P18 - (2.13)
 
@@ -200,3 +206,13 @@ $$
 　　略
 
 # Chapter 3 - The Dirac Field
+
+**注意**：本书中的变换都是对场本身进行操作。  
+　　　*"active" point of view*
+
+## 3.1 Lorentz Invariance in Wave Equations
+
+### P36 - (3.3)
+
+　　这里只要把 $(\Lambda^{-1}x)$ 看作是 $x$ 的某个函数 $y(x) = \Lambda^{-1}x$，做复合函数的求导即可。等式右端最后那个括号的意思是前面的函数 $\partial_{\nu}\phi$ 在 $\Lambda^{-1}x$ 处取值。
+
