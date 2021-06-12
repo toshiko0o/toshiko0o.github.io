@@ -23,21 +23,22 @@
     var CONFIG = {"hostname":"blog.chen-137.me","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="关于昵称 　　早川　季子（はやかわ　としこ，Hayakawa　Toshiko） 　　这个名字来自一场梦。 　　梦中，炮火扬起的灰土把午夜的天空染成了暗黄色。暗淡的天穹之下，是地处边陲的一座荒村。我在村子里跌跌绊绊地跑着，躲避着士兵的追击。 　　为了逃离某个国家没命地跑着。 　　跨越国境线时，突然现出两个人影向我索要身份证明，我也毫不迟疑地掏出一个破旧的小本递给了他们。查看过后，他们就用一辆老式黑色">
-<meta property="og:type" content="website">
-<meta property="og:title" content="站点简介">
-<meta property="og:url" content="https://blog.chen-137.me/about/index.html">
+  <meta name="description" content="电磁场中带电粒子的非相对论性薛定谔方程的规范变换  Consider the non-relativistic Schrödinger equation of a charged particle interacting with electromagnetic field: \[ \begin{equation} i\hbar \frac{\partial\psi(t,\mathbf{x})}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="规范变换计算一例">
+<meta property="og:url" content="https://blog.chen-137.me/2021/06/10/%E8%A7%84%E8%8C%83%E5%8F%98%E6%8D%A2%E8%AE%A1%E7%AE%97%E4%B8%80%E4%BE%8B/index.html">
 <meta property="og:site_name" content="chen-137">
-<meta property="og:description" content="关于昵称 　　早川　季子（はやかわ　としこ，Hayakawa　Toshiko） 　　这个名字来自一场梦。 　　梦中，炮火扬起的灰土把午夜的天空染成了暗黄色。暗淡的天穹之下，是地处边陲的一座荒村。我在村子里跌跌绊绊地跑着，躲避着士兵的追击。 　　为了逃离某个国家没命地跑着。 　　跨越国境线时，突然现出两个人影向我索要身份证明，我也毫不迟疑地掏出一个破旧的小本递给了他们。查看过后，他们就用一辆老式黑色">
+<meta property="og:description" content="电磁场中带电粒子的非相对论性薛定谔方程的规范变换  Consider the non-relativistic Schrödinger equation of a charged particle interacting with electromagnetic field: \[ \begin{equation} i\hbar \frac{\partial\psi(t,\mathbf{x})}">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://raw.githubusercontent.com/toshiko0o/image-host/master/God">
-<meta property="article:published_time" content="2018-07-18T08:18:50.000Z">
-<meta property="article:modified_time" content="2021-06-08T14:57:12.840Z">
+<meta property="article:published_time" content="2021-06-10T09:21:33.000Z">
+<meta property="article:modified_time" content="2021-06-12T16:36:11.802Z">
 <meta property="article:author" content="hayakawa">
+<meta property="article:tag" content="物理">
+<meta property="article:tag" content="Gauge Transformation">
+<meta property="article:tag" content="Non-relativistic">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/toshiko0o/image-host/master/God">
 
-<link rel="canonical" href="https://blog.chen-137.me/about/">
+<link rel="canonical" href="https://blog.chen-137.me/2021/06/10/%E8%A7%84%E8%8C%83%E5%8F%98%E6%8D%A2%E8%AE%A1%E7%AE%97%E4%B8%80%E4%BE%8B/">
 
 
 <script id="page-configurations">
@@ -45,13 +46,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>站点简介 | chen-137
-</title>
+  <title>规范变换计算一例 | chen-137</title>
   
 
 
@@ -170,84 +170,145 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.chen-137.me/2021/06/10/%E8%A7%84%E8%8C%83%E5%8F%98%E6%8D%A2%E8%AE%A1%E7%AE%97%E4%B8%80%E4%BE%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/hedgehog.jpg">
+      <meta itemprop="name" content="hayakawa">
+      <meta itemprop="description" content="认识你自己">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="chen-137">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          规范变换计算一例
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">站点简介
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
 
-<div class="post-meta">
+              <time title="创建时间：2021-06-10 18:21:33" itemprop="dateCreated datePublished" datetime="2021-06-10T18:21:33+09:00">2021-06-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-06-13 01:36:11" itemprop="dateModified" datetime="2021-06-13T01:36:11+09:00">2021-06-13</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%89%A9%E7%90%86%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">物理笔记</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<p>电磁场中带电粒子的非相对论性薛定谔方程的规范变换</p>
+</blockquote>
+<p>Consider the non-relativistic Schrödinger equation of a charged particle interacting with electromagnetic field: <span class="math display">\[
+\begin{equation}
+i\hbar \frac{\partial\psi(t,\mathbf{x})}{\partial t} = \biggl[\frac{1}{2m}\biggl(\frac{\hbar}{i}\boldsymbol{\nabla}-q\mathbf{A} \biggr)^2 + qV\biggr]\psi(t,\mathbf{x}). 
+\end{equation}
+\]</span> Gauge transformation:</p>
+<p><span class="math display">\[
+\begin{gather}
+V \rightarrow V&#39; = V - \frac{\partial \chi(t,\mathbf{x})}{\partial t}, \\
+\mathbf{A} \rightarrow \mathbf{A}&#39; = \mathbf{A} + \boldsymbol{\nabla}\chi(t,\mathbf{x}), \\ 
+\psi(t,\mathbf{x}) \rightarrow \psi&#39;(t,\mathbf{x}) = \exp\biggl[\frac{iq}{\hbar}\chi(t,\mathbf{x})\biggr]\psi(t,\mathbf{x}).
+\end{gather}
+\]</span> <a id="more"></a></p>
+<p>Firstly, consider the transformation of the electromagnetic field part, <span class="math display">\[
+\begin{equation}
+\begin{aligned}
+i\hbar \frac{\partial\psi&#39;}{\partial t} &amp;= \biggl[\frac{1}{2m}\biggl(\frac{\hbar}{i}\boldsymbol{\nabla}-q\mathbf{A}&#39; \biggr)^2 + qV&#39;\biggr]\psi&#39; \\
+i\hbar \frac{\partial\psi&#39;}{\partial t} &amp;= -\frac{\hbar^2}{2m}\nabla^2\psi&#39; + \frac{iq\hbar}{2m}\biggl[\boldsymbol{\nabla}\cdot(\mathbf{A}&#39;\psi&#39;) + \mathbf{A}&#39;\cdot\boldsymbol{\nabla}\psi&#39;\biggr]+\biggl(\frac{q^2}{2m}\mathbf{A}&#39;^2 +qV&#39;\biggr)\psi&#39; \\
+i\hbar \frac{\partial\psi&#39;}{\partial t} &amp;= \biggl[-\frac{\hbar^2}{2m}\nabla^2 + \frac{iq\hbar}{2m}\biggl(\boldsymbol{\nabla}\cdot\mathbf{A}&#39; + 2\mathbf{A}&#39;\cdot\boldsymbol{\nabla}\biggr)+\frac{q^2}{2m}\mathbf{A}&#39;^2 +qV&#39;\biggr]\psi&#39; \\
+i\hbar \frac{\partial}{\partial t}\psi&#39; &amp;= \biggl[-\frac{\hbar^2}{2m}\nabla^2 + \frac{iq\hbar}{2m}\biggl(\boldsymbol{\nabla}\cdot\mathbf{A} + 2\mathbf{A}\cdot\boldsymbol{\nabla} + \nabla^2\chi + 2\boldsymbol{\nabla}\chi\cdot\boldsymbol{\nabla}\biggr) \\ 
+ &amp;\quad \ \  + \frac{q^2}{2m}\biggl(\mathbf{A}^2 + 2\mathbf{A}\cdot\boldsymbol{\nabla}\chi  + (\boldsymbol{\nabla}\chi)^2\biggr) + q\biggl(V-\frac{\partial}{\partial t}\chi \biggr)\biggr]\psi&#39;. 
+\end{aligned}
+\end{equation}
+\]</span> Then consider the transformation for the wave function, <span class="math display">\[
+\begin{equation}
+\begin{aligned}
+i\hbar \biggl(\frac{iq}{\hbar} \frac{\partial \chi}{\partial t}\psi + \frac{\partial}{\partial t}\psi \biggr) = &amp;-\frac{iq\hbar}{2m}\biggl[\frac{iq}{\hbar}\psi(\boldsymbol\nabla\chi)^2 + \boldsymbol\nabla\psi \cdot \boldsymbol\nabla\chi  + \psi\nabla^2 \chi \biggr] \\
+&amp;-\frac{\hbar^2}{2m}\biggl[\frac{iq}{\hbar}\boldsymbol\nabla\psi \cdot \boldsymbol\nabla\chi +\nabla^2\psi \biggr] \\
+&amp;+ \frac{iq\hbar}{2m}\biggl[(\boldsymbol{\nabla}\cdot\mathbf{A})\psi + \frac{2iq}{\hbar}\psi\mathbf{A}\cdot\boldsymbol{\nabla}\chi + 2\mathbf{A}\cdot\boldsymbol{\nabla}\psi \\ 
+&amp;\qquad \quad \ \ \ + \psi\nabla^2\chi + \frac{2iq}{\hbar}\psi(\boldsymbol{\nabla}\chi)^2 + 2\boldsymbol{\nabla}\psi\cdot\boldsymbol{\nabla}\chi\biggr] \\
+&amp; + \frac{q^2}{2m}\biggl[\mathbf{A}^2\psi + 2\psi\mathbf{A}\cdot\boldsymbol{\nabla}\chi + \psi(\boldsymbol{\nabla}\chi)^2 \biggr] \\
+&amp; + qV\psi - q\frac{\partial\chi}{\partial t}\psi \\
+i\hbar\frac{\partial}{\partial t}\psi = &amp;\biggl[-\frac{\hbar^2}{2m}\nabla^2 + \frac{iq\hbar}{2m}\biggl(\boldsymbol{\nabla}\cdot\mathbf{A} + 2\mathbf{A}\cdot\boldsymbol{\nabla}\biggr)+\frac{q^2}{2m}\mathbf{A}^2 +qV\biggr]\psi \\
+&amp; \ +\frac{q^2}{2m}\psi(\boldsymbol{\nabla}\chi)^2 - 2 \cdot \frac{q^2}{2m}\psi(\boldsymbol{\nabla}\chi)^2 + \frac{q^2}{2m}\psi(\boldsymbol{\nabla}\chi)^2 \\
+&amp; \ -\frac{iq\hbar}{2m}\boldsymbol{\nabla}\psi\cdot\boldsymbol{\nabla}\chi - \frac{iq\hbar}{2m}\boldsymbol{\nabla}\psi\cdot\boldsymbol{\nabla}\chi + 2 \cdot \frac{iq\hbar}{2m}\boldsymbol{\nabla}\psi\cdot\boldsymbol{\nabla}\chi \\
+&amp; \ - \frac{iq\hbar}{2m}\psi\nabla^2\chi + \frac{iq\hbar}{2m}\psi\nabla^2\chi \\ 
+&amp; \ - \frac{q^2}{m}\psi\mathbf{A}\cdot\boldsymbol{\nabla}\chi + \frac{q^2}{m}\psi\mathbf{A}\cdot\boldsymbol{\nabla}\chi\ , 
+\end{aligned}
+\end{equation}
+\]</span> which finally becomes <span class="math display">\[
+\begin{equation}
+i\hbar\frac{\partial}{\partial t}\psi = \biggl[-\frac{\hbar^2}{2m}\nabla^2 + \frac{iq\hbar}{2m}\biggl(\boldsymbol{\nabla}\cdot\mathbf{A} + 2\mathbf{A}\cdot\boldsymbol{\nabla}\biggr)+\frac{q^2}{2m}\mathbf{A}^2 +qV\biggr]\psi.
+\end{equation}
+\]</span> Compared to the third line in <span class="math inline">\((5)\)</span>, we can find that this form is the same as the original equation.</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%89%A9%E7%90%86/" rel="tag"># 物理</a>
+              <a href="/tags/Gauge-Transformation/" rel="tag"># Gauge Transformation</a>
+              <a href="/tags/Non-relativistic/" rel="tag"># Non-relativistic</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/05/31/%E6%97%85%E8%B7%AF/" rel="prev" title="旅路">
+      <i class="fa fa-chevron-left"></i> 旅路
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <h1 id="关于昵称">关于昵称</h1>
-<p>　　<strong>早川　季子</strong>（はやかわ　としこ，Hayakawa　Toshiko）</p>
-<p>　　这个名字来自一场梦。</p>
-<p>　　梦中，炮火扬起的灰土把午夜的天空染成了暗黄色。暗淡的天穹之下，是地处边陲的一座荒村。我在村子里跌跌绊绊地跑着，躲避着士兵的追击。</p>
-<p>　　为了逃离<em>某个</em>国家没命地跑着。</p>
-<p>　　跨越国境线时，突然现出两个人影向我索要身份证明，我也毫不迟疑地掏出一个破旧的小本递给了他们。查看过后，他们就用一辆老式黑色轿车把我运走了。</p>
-<p>　　而在递出小本的时候，我瞟到了首页记载的姓名：<strong>早川　季子</strong>。</p>
-<p>　　（那一阵子在看<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/來自新世界#電視動畫">《来自新世界》</a>，女主角名字叫早季，也许跟这个有点关系吧。）</p>
-<h1 id="关于站点名">关于站点名</h1>
-<p>　　在站点名称 <strong>chen-137</strong> 中，<strong>chen</strong> 来自我的本名，<strong>137</strong> 取自<strong>精细结构常数</strong>：<span class="math inline">\(\alpha \approx 1/137\)</span>。</p>
-<h1 id="关于博客内容">关于博客内容</h1>
-<ul>
-<li>书抄（小说为主）</li>
-<li>笔记（物理及计算机相关为主）</li>
-<li>二次元（动画推荐、镜头选集、OST 等）</li>
-<li>随笔（故作痛苦时的呓语）</li>
-<li>類空星逝（短博客选集）</li>
-</ul>
-<p>　　因为太懒，总是挖坑不填。</p>
-<p>　　如发现有公式显示不全的情况，请尝试修改网页缩放。（由于技术力低下，暂时无法解决此问题。）</p>
-<h1 id="关于我">关于我</h1>
-<p>　　动画爱好者，最推荐的动画是《EVA》系列。明日香厨。</p>
-<p>　　喜欢玩游戏（不过完整通关的游戏也不是很多），最推荐《蔚蓝》。</p>
-<p>　　理论物理研究生，研究方向暂定 Lattice QCD，处于并将长期处于阅读教科书阶段。</p>
-<p>　　回望来路，一直挣扎，一直彷徨，有时原地打转，有时前进。彷徨时的自我剖析，以及痛苦时那些无声的呐喊，全部收录在 <a href="https://blog.chen-137.me/tags/非健全人的自我救赎/">非健全人的自我救赎</a> 及 <a href="https://blog.chen-137.me/microblog/">類空星逝</a> 中。我决定不再逃避这些——它们是我明灭不定的生活里的某种“乐趣”，也是我在无垠的荒原上维持自我的参照物。现在，我要做的是承认它们。我要承认自己平淡的，有时甚至是令人不快的过去，因为每个时刻的自己都不应该被抛弃，每一个留下的路标都不应该被诅咒。发生过的事不可挽回，那就全部囫囵吞下，用力消化，仔细挑拣，剔掉坏的部分，挑出曾经让我感到过善和美的东西，带着它们，迎向世间那荒诞而无序的阵风，继续向前走下去。</p>
-<p>　　即使理想主义注定给所有人带来不幸，我也会尽全力背负着它活下去。</p>
-　　最后，以此句自勉： 　　
-<center>
-<font size = 6>γνῶθι σεαυτόν</font>
-</center>
-<center>
-<font size = 3>认识你自己</font>
-</center>
-<hr />
-<p><img src="https://raw.githubusercontent.com/toshiko0o/image-host/master/God's_in_his_heaven.jpg" alt="God's_in_his_heaven" style="zoom:75%;" /></p>
-<center>
-<font size = 1> <strong>插入图片为画师<a target="_blank" rel="noopener" href="https://www.pixiv.net/users/13447132/"><span class="citation" data-cites="qosic">@qosic</span></a>作品。作品pixiv id为<a target="_blank" rel="noopener" href="https://www.pixiv.net/artworks/80472549/">80472549</a>。色调及尺寸有改动。</strong> </font>
-</center>
-<center>
-<font size = 1> <strong>头像为<a target="_blank" rel="noopener" href="https://gc-press.co.jp/">G.C.PRESS</a>出品的<a target="_blank" rel="noopener" href="https://gc-press.co.jp/?pid=124163364">“便箋 ハリネズミ”</a>封面上的小刺猬。非常可爱！</strong> </font>
-</center>
-
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -298,7 +359,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E6%98%B5%E7%A7%B0"><span class="nav-text">关于昵称</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E7%AB%99%E7%82%B9%E5%90%8D"><span class="nav-text">关于站点名</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9"><span class="nav-text">关于博客内容</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E6%88%91"><span class="nav-text">关于我</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
