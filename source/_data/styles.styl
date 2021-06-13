@@ -31,9 +31,13 @@ body {
   font-size: 1em; 
 }
 
-.sidebar-inner, .comments, .post-block, .sidebar, .header-inner, .site-brand-container{
+.sidebar-inner, .comments, .sidebar, .header-inner, .site-brand-container{
     background: unset;
     box-shadow: unset;
+}
+
+.post-block{
+    background: unset;
 }
 
 .pagination{
@@ -637,13 +641,8 @@ mjx-mtd:last-child {
     box-shadow: 0 0px 2px 0 #0000001f, 0 3px 1px -2px #0000000f, 0 1px 5px 0 #0000001f, 0 -1px 0.5px 0 #00000017;
 }
 
-控制评论模块边框弧度
-.comments {
-    border-radius: 10px !important;    
-}
-
 //取消主页边框
-.post-block + .post-block {
+.post-block     + .post-block {
     //box-shadow: unset;
 }
 
@@ -661,24 +660,3 @@ mjx-mtd:last-child {
 code {
     font-size: 1.15em; 
 }
-
-//valine
-// .v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code
-// {
-//     color = #656765 !important;
-// }
-
-.v[data-class=v] .status-bar, .v[data-class=v] .veditor, .v[data-class=v] .vinput, .v[data-class=v] p, .v[data-class=v] pre code {
-color: #000000 !important;
-}
-
-//友链格式控制
-// .friendsphoto{
-//     float:left;
-//     width:20%;
-// }
-
-// .friendsintro{
-//     float:right;
-//     width:80%;
-// }
