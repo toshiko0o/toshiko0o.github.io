@@ -13,6 +13,8 @@ mathjax: true
 
 　　如发现任何错误或遗漏，或希望与我讨论书中的内容，欢迎通过邮件联系。
 
+（如发现有公式显示不全的情况，请尝试反复修改网页缩放。）
+
 <!--more-->
 
 # Chapter 1 - Invitation
@@ -55,7 +57,7 @@ U(t) &= \langle \mathbf{x}|e^{-i(\mathbf{p}^2/2m)t}|\mathbf{x}_0\rangle \\
 \end{equation}
 $$
 
-　　最后一步直接使用高斯积分公式即可.
+　　最后一步直接使用高斯积分公式即可。
 
 　　注：一维高斯积分公式
 $$
@@ -80,7 +82,7 @@ U(t) &= \mathinner{\langle \mathbf{x}|}e^{-it\sqrt{\mathbf{p}^2+m^2}}\mathinner{
 \end{aligned}
 \end{equation}
 $$
-　　在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了 $z$-axis 的正方向. 
+　　在第三行，我们把向量$(\mathbf{x}-\mathbf{x}_0)$的方向设为了 $z$-axis 的正方向。
 
 ### P.15 - Figure 2.1
 
@@ -126,11 +128,11 @@ $$
 \frac{\partial}{\partial t}\biggl(\frac{\partial \mathcal{L}}{\partial\dot\phi}\biggr) + \boldsymbol{\nabla} \biggl(\frac{\partial \mathcal{L}}{\partial(\boldsymbol{\nabla} \phi)}\biggr) - \frac{\partial \mathcal{L}}{\partial \phi} = 0,
 \end{equation}
 $$
-这在利用薛定谔场的拉氏量导出薛定谔方程的时候很有用。
+这在利用薛定谔场的 Lagrangian 导出薛定谔方程的时候很有用。
 
 　　而关于这里的边界项 $\partial_\mu \bigl(\frac{\partial \mathcal{L}}{\partial(\partial_\mu \phi)}\delta \phi \bigr)$，注意要分别考虑时间和空间分量（书中也提到了）。
 
-> 补充 ：薛定谔场的拉氏量
+> 补充 ：薛定谔场的 Lagrangian 
 > $$
 > \mathcal{L}_{Schr\ddot{o}dinger} = i\hbar\psi^\dagger\frac{\partial \psi}{\partial t} - \frac{\hbar^2}{2m}\boldsymbol{\nabla}\psi^\dagger\boldsymbol{\nabla}\psi - V(\mathbf x)\psi^\dagger\psi.
 > $$
@@ -145,49 +147,101 @@ $$
 
 ### P17 - Noether's Theorem
 
-　　Peskin 这里的表述非常不自然，稍微解释一下。
+　　这里可以参考 Hagen Kleinert 的课程中的[解释](http://users.physik.fu-berlin.de/~kleinert/b6/psfiles/Chapter-7-conslaw.pdf)以及 Weinberg QFT 第一册中的 7.3 一节。
 
-　　对于一个对称变换，必定使得 (2.10) 成立。这是对称变换的定义，与导出守恒流的过程无关。导出守恒流时，可以直接考虑由坐标变换对场及拉氏量造成的影响。例如当考虑变换
-$$
-\begin{equation}
-x^{\mu} \rightarrow x'^{\mu} = x^{\mu} + {\alpha\Delta x}^{\mu}
-\end{equation}
-$$
-时，**由此引起**的场的变化为
-$$
-\begin{equation}
-\phi \rightarrow \phi' = \phi + \alpha\Delta\phi ，
-\end{equation}
-$$
-那么拉氏量的变化部分 $\alpha\Delta\mathcal{L}$ 可以写为
-$$
-\begin{equation}
-\begin{aligned}
-\alpha\Delta\mathcal{L} &= \mathcal{L}'(\phi', \partial_{\mu}\phi',x'^{\mu}) - \mathcal{L}(\phi, \partial_{\mu}\phi,x^{\mu}) \\
-                        &= \frac{\partial\mathcal{L}}{\partial \phi}(\alpha\Delta\phi) + \frac{\partial\mathcal{L}}{\partial (\partial_{\mu}\phi)}\partial_{\mu}(\alpha\Delta\phi) + \partial_{\mu}\mathcal{L}(\alpha\Delta x^{\mu}) \\
-                        &= \alpha \partial_{\mu}\biggl( \frac{\partial\mathcal{L}}{\partial (\partial_{\mu}\phi)}\Delta\phi + \mathcal{L}\Delta x^{\mu}\biggr),
-\end{aligned}
-\end{equation}
-$$
-这样在守恒流中引入与拉氏量有关的那一项就自然多了（使用这样定义的守恒流推导能动量守恒流时，得到的结果和书中的例子也是一致的）。而上述推导也表明，这一项总在有坐标变换时出现。
+　　Hagen Kleinert 解释了在 (2.11) 中用 Euler-Lagrange 方程的含义：在所有可能的场分布中，我们把处理对象限定于由最小作用量原理决定的那一个，即**真实**的场分布（在经典力学中，即为粒子运动的真实轨道）。
 
-> 这是非常不严格（可以说是有错误）的推导。完整的推导可以参考 Goldstein 书中的 13.7 一节，看到推导出 (13.142) 即可。
+　　我此前的疑惑是：由书中 (2.11) 推导，任意的全局变换（$\alpha$ 为常数）都会导致 Lagrangian 变化一个 4-divergence，这是不是意味着任意的全局变换都是对称变换呢？实际上，这是因为在 (2.11) 中，我们只考虑了**真实**的场分布；而根据 Weinberg 书中的说法，对于**真实**的场，确实任意变换都会使 (2.10) 成立。但**对称变换**的含义是该变换使得 (2.10) 对任意场都成立，而不仅仅是对**真实**的场分布成立，所以“任意的全局变换都是对称变换”肯定是错误的。
 
-　　但我还有另一个疑惑。由上述推导，我们发现任意的全局变换（$\alpha$ 为常数）都会导致拉氏量变化一个 4-divergence，而这是不是意味着任意的全局变换都是对称变换呢？
+　　所以关于此处所述的 Noether's theorem ，我的理解是这样的：
 
-　　参考 Weinberg 的 QFT 第 1 卷中 7.3 节的讨论，实际上守恒流的导出是需要考虑局域变换的（此时 $\alpha = \alpha(x)$）。
+1. 若某个变换是一个对称变换，则它会使系统的 Lagrangian 变化至多一个 4-divergence，即 (2.10)。需要注意的是，这个变化对于系统中所有可能的场分布都成立，无论是否是满足最小作用量原理的那一个。  
 
-　　参考 Hagen Kleinert 的课程中的[解释](http://users.physik.fu-berlin.de/~kleinert/b6/psfiles/Chapter-7-conslaw.pdf)，
+   > 在实际计算时，我们应该首先检查变换是否保证了 (2.10) 成立（书中的前两个例子都是这么做的），并由此得到 $\mathcal{J}^{\mu}$ 的形式。
+
+2. 对于某个具体的变换 (2.9)，我们可以计算得到 (2.11) 式，这代表了变换导致的 Lagrangian 的变化（对所有可能的场分布）；而接下来，我们只考虑对于真实的场来说的 Lagrangian 的变化（用 Euler-Lagrange 方程去掉第二项）；最后，由于这一项肯定也满足 (2.10)，所以我们令它等于前面的 $\mathcal{J}^{\mu}$，得到守恒流。  
+
+   > 这一步只是为了得到守恒流。
+
+> 补充1: 实际上这里的导数需要替换为李导数
+>
+> 补充2: 更好的导出守恒流的方式也许是考虑局域变换，详见 Weinberg 书中讲解或 Hagen Kleinert 课件中 8.1.2 一节。
 
 ### P18 - (2.13)
 
-　　
+$$
+\begin{equation}
+\begin{aligned}
+\frac{dQ}{dt} &= \int \partial_0 j^0 d^3 x \\
+&= \int (\partial_\mu j^\mu - \boldsymbol{\nabla}\cdot\mathbf{j}) \ d^3 x \\
+& = - \int \boldsymbol{\nabla}\cdot\mathbf{j}\ \ d^3 x \\
+&=0.
+\end{aligned}
+\end{equation}
+$$
 
 ## 2.3 The Klein-Gordon Field as Harmonic Oscillators
 
+### P20 - (2.21) ~ (2.28)
 
+　　这里有一种更好的导出标量场表达式的方法。
 
-## 2.4 The Klein-Gordon Field in Space-Time 
+　　首先还是将 $\phi(x)$ 表达为
+$$
+\begin{equation}
+\phi(\mathbf{x}, t) = \int \frac{d^3 p}{(2\pi)^3}e^{i\mathbf{p \cdot x}}\phi(\mathbf{p}, t), 
+\end{equation}
+$$
+而其中的 $\phi(\mathbf{p}, t)$ 为（在上式中同时对两端做积分 $\int e^{-i\mathbf{p'\cdot x}} d^3 x$）
+$$
+\begin{equation}
+\phi(\mathbf{p}, t) = \int d^3 x\ e^{-i\mathbf{p \cdot x}}\phi(\mathbf{x}, t), 
+\end{equation}
+$$
+由于 $\phi^\dagger = \phi$ （$\phi$ 为实标量场），
+$$
+\begin{equation}
+\phi^{\dagger}(\mathbf{p}, t) = \int d^3 x\ e^{i\mathbf{p \cdot x}}\phi(\mathbf{x}, t) = -\phi(\mathbf{p}, t). 
+\end{equation}
+$$
+　　接下来考虑运动方程 (2.21)，写出试解：
+$$
+\begin{equation}
+\phi(\mathbf{p}, t) = a_1(\mathbf{p})e^{-i\omega_p t} + a_2(\mathbf{p})e^{i\omega_p t},
+\end{equation}
+$$
+而
+$$
+\begin{equation}
+\phi^{\dagger}(\mathbf{p}, t) = a_1^{\dagger}(\mathbf{p})e^{i\omega_p t} + a_2^{\dagger}(\mathbf{p})e^{-i\omega_p t}.
+\end{equation}
+$$
+　　而 $\phi^{\dagger}(\mathbf{p}, t) = -\phi(\mathbf{p}, t)$ ，则
+$$
+\begin{equation}
+\left\{\begin{array}{c} a_1^{\dagger}(\mathbf{p}) = a_2(\mathbf{-p})\\ a_2^{\dagger}(\mathbf{p}) = a_1(\mathbf{-p})\end{array}\right..
+\end{equation}
+$$
+于是 $\phi(x)$ 可以表示为：
+$$
+\begin{equation}
+\begin{aligned}
+\phi(\mathbf{x}, t) &= \int \frac{d^3 p}{(2\pi)^3}e^{i\mathbf{p \cdot x}}\Bigl(a_1(\mathbf{p})e^{-i\omega_p t} + a_2(\mathbf{p})e^{i\omega_p t}\Bigr) \\
+&= \int \frac{d^3 p}{(2\pi)^3}\Bigl(a_1(\mathbf{p})e^{-i\omega_p t +i\mathbf{p \cdot x}} + a_1^{\dagger}(-\mathbf{p})e^{i\omega_p t+i\mathbf{p \cdot x}}\Bigr) \\
+&= \int \frac{d^3 p}{(2\pi)^3}\Bigl(a_1(\mathbf{p})e^{-i\omega_p t + i\mathbf{p \cdot x}} + a_1^{\dagger}(\mathbf{p})e^{i\omega_p t - i\mathbf{p \cdot x}}\Bigr) \\
+&= \int \frac{d^3 p}{(2\pi)^3} \frac{1}{\sqrt{2 \omega_\mathbf{p}}} \Bigl(a(\mathbf{p})e^{-ipx} + a^{\dagger}(\mathbf{p})e^{+ipx}\Bigr).
+\end{aligned}
+\end{equation}
+$$
+（这里我们将 $a_1(\mathbf{p})$ 替换为了 $\frac{1}{\sqrt{2\omega_\mathbf{p}}} a(\mathbf{p})$）
+
+​	　　值得注意的是，书中把 $a(\mathbf{p})$ 写为了 $a_\mathbf{p}$，实际上理解为函数就可以了。熟悉了以后这样写比较方便。
+
+### P21 - (2.26) 下面那一段
+
+　　关于求 $a_\mathbf{p}$ 和 $a^{\dagger}_\mathbf{p}$ 的表达式：将 (2.25) 和 (2.26) 系数凑合适，加减消去其中一个后，再同时对两端做积分 $\int e^{-i\mathbf{p'\cdot x}} d^3 x$ 即可，确实很 easy，Peskin 没有骗你。
+
+## 2.4 The Klein-Gordon Field in Space-Time
 
 
 

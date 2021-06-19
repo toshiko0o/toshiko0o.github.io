@@ -10,9 +10,9 @@ tags:
 mathjax: true
 ---
 
-　　课程教材：[Mark Thomson - Modern Particle Physics - Cambridge University Press (2013)](http://libgen.rs/book/index.php?md5=872DC0A962ED5730B605FB1FFA87216E)
+　　课程教材：[Mark Thomson - Modern Particle Physics - Cambridge University Press (2013)](http://libgen.rs/book/index.php?md5=872DC0A962ED5730B605FB1FFA87216E)，这本书我也上传到了我的 telegram channel。
 
-　　这本书我也上传到了我的 telegram channel
+（如发现有公式显示不全的情况，请尝试反复修改网页缩放。）
 
 <!--more-->
 

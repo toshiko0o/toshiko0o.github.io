@@ -663,6 +663,16 @@ gitalk:
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language: zh-CN
 
+# # 整合 utterance 评论
+# utterance:
+#   enable: true
+#   # 仓库名字，格式：你的用户 ID/ 仓库名称，如：zhangsan/utterance_repo
+#   repo: toshiko0o/utterances
+#   # 主题
+#   theme: github-light
+#   # 映射配置
+#   issue_term: pathname
+
 
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
