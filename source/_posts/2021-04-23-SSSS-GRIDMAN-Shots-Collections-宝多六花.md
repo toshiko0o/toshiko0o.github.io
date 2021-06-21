@@ -2,7 +2,8 @@
 title: SSSS.GRIDMAN Shots Collections - 宝多六花
 date: 2021-04-23 02:30:00
 categories: 
-- 影像精选集
+- 收集繁星
+- 影像
 tags: 
 - SSSS.GRIDMAN
 - JK

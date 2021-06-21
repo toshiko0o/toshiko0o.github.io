@@ -2,7 +2,8 @@
 title: Particle Physics Note
 date: 2021-05-08 20:56:36
 categories: 
-- 物理笔记
+- 学习笔记
+- 物理
 tags: 
 - HEP
 - Particle Physics

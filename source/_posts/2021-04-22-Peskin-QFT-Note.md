@@ -2,7 +2,8 @@
 title: Peskin QFT Note
 date: 2021-04-22 18:03:40
 categories: 
-- 物理笔记
+- 学习笔记
+- 物理
 tags: 
 - QFT
 - 物理
