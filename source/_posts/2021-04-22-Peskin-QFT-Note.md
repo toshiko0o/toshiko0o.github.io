@@ -123,7 +123,7 @@ $$
 \frac{\partial \mathcal{L}}{\partial\dot\phi}\delta  \dot{\phi}+\frac{\partial \mathcal{L}}{\partial(\boldsymbol{\nabla} \phi)}\delta(\boldsymbol{\nabla} \phi),
 \end{equation}
 $$
-　　所以这里和下面的计算中出现的都不是四矢量的内积，只是各分量偏微分的和的简写（可以全部展开算一遍）。于是最后的 Euler-Lagrange equation 也可以写为
+　　这里和下面的计算中出现的都不是四矢量的内积，只是各分量偏微分的和的简写（可以全部展开算一遍）。于是最后的 Euler-Lagrange equation 也可以写为
 $$
 \begin{equation}
 \frac{\partial}{\partial t}\biggl(\frac{\partial \mathcal{L}}{\partial\dot\phi}\biggr) + \boldsymbol{\nabla} \biggl(\frac{\partial \mathcal{L}}{\partial(\boldsymbol{\nabla} \phi)}\biggr) - \frac{\partial \mathcal{L}}{\partial \phi} = 0,
@@ -152,7 +152,7 @@ $$
 
 　　Hagen Kleinert 解释了在 (2.11) 中用 Euler-Lagrange 方程的含义：在所有可能的场分布中，我们把处理对象限定于由最小作用量原理决定的那一个，即**真实**的场分布（在经典力学中，即为粒子运动的真实轨道）。
 
-　　我此前的疑惑是：由书中 (2.11) 推导，任意的全局变换（$\alpha$ 为常数）都会导致 Lagrangian 变化一个 4-divergence，这是不是意味着任意的全局变换都是对称变换呢？实际上，这是因为在 (2.11) 中，我们只考虑了**真实**的场分布；而根据 Weinberg 书中的说法，对于**真实**的场，确实任意变换都会使 (2.10) 成立。但**对称变换**的含义是该变换使得 (2.10) 对任意场都成立，而不仅仅是对**真实**的场分布成立，所以“任意的全局变换都是对称变换”肯定是错误的。
+　　我此前的疑惑是：由书中 (2.11) 推导，任意的全局变换（$\alpha$ 为常数）都会导致 Lagrangian 变化一个 4-divergence，这是不是意味着任意的全局变换都是对称变换呢？实际上，这是因为在 (2.11) 中，我们只考虑了**真实**的场分布；而根据 Weinberg 书中的说法，对于**真实**的场分布，确实任意变换都会使 (2.10) 成立。但**对称变换**的含义是该变换使得 (2.10) 对任意场分布都成立，而不仅仅是对**真实**的场分布成立，所以“任意的全局变换都是对称变换”肯定是错误的。
 
 　　所以关于此处所述的 Noether's theorem ，我的理解是这样的：
 
@@ -160,7 +160,7 @@ $$
 
    > 在实际计算时，我们应该首先检查变换是否保证了 (2.10) 成立（书中的前两个例子都是这么做的），并由此得到 $\mathcal{J}^{\mu}$ 的形式。
 
-2. 对于某个具体的变换 (2.9)，我们可以计算得到 (2.11) 式，这代表了变换导致的 Lagrangian 的变化（对所有可能的场分布）；而接下来，我们只考虑对于真实的场来说的 Lagrangian 的变化（用 Euler-Lagrange 方程去掉第二项）；最后，由于这一项肯定也满足 (2.10)，所以我们令它等于前面的 $\mathcal{J}^{\mu}$，得到守恒流。  
+2. 对于某个具体的变换 (2.9)，我们可以计算得到 (2.11) 式，这代表了变换导致的 Lagrangian 的变化（对一般的场分布）；而接下来，对于真实（满足最小作用量原理）的场来说，考虑其 Lagrangian 的变化需要用 Euler-Lagrange 方程去掉第二项；最后，由于这一项肯定也满足 (2.10)，所以我们令它等于前面的 $\mathcal{J}^{\mu}$，得到守恒流。  
 
    > 这一步只是为了得到守恒流。
 
@@ -182,6 +182,9 @@ $$
 $$
 
 ## 2.3 The Klein-Gordon Field as Harmonic Oscillators
+<span id="KG-Field">
+
+
 
 ### P20 - (2.21) ~ (2.28)
 
@@ -242,9 +245,40 @@ $$
 
 　　关于求 $a_\mathbf{p}$ 和 $a^{\dagger}_\mathbf{p}$ 的表达式：将 (2.25) 和 (2.26) 系数凑合适，加减消去其中一个后，再同时对两端做积分 $\int e^{-i\mathbf{p'\cdot x}} d^3 x$ 即可，确实很 easy，Peskin 没有骗你。
 
+### P22 - (2.33)
+
+　　此处计算（以及相关的许多计算）可能要用到如下的关系：
+$$
+\begin{equation}
+\begin{aligned}
+\int_{-\infty}^{+\infty}\frac{d^3 p}{(2\pi)^3}f(\mathbf p) &= \int_{+\infty}^{-\infty}\frac{d^3 (-p)}{(2\pi)^3}f(-\mathbf p) \\
+&= -\int_{+\infty}^{-\infty}\frac{d^3 p}{(2\pi)^3}f(-\mathbf p) \\
+&= \int_{-\infty}^{+\infty}\frac{d^3 p}{(2\pi)^3}f(-\mathbf p).
+\end{aligned}
+\end{equation}
+$$
+
+### P22 - (2.34)
+
+　　建议记这个公式：
+$$
+\delta(f(x)) = \sum_i \frac{\delta(x-x_i)}{|f'(x_i)|},
+$$
+其中 $x_i$ 是 $f(x)$ 的根。参考 [$\delta$ 函数的维基百科页面](https://zh.wikipedia.org/wiki/狄拉克δ函数#與函數的復合)。
+
+### P23 - (2.40)
+
+$$
+\begin{equation}
+
+\end{equation}
+$$
+
+
+
 ## 2.4 The Klein-Gordon Field in Space-Time
 
-
+　　我们在[前面](#KG-Field)就已经得到了包含时间的形式。
 
 ## Problems
 
